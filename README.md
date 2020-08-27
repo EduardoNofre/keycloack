@@ -24,7 +24,7 @@
   
   3 - Abra http://localhost:8080/auth em seu navegador.
     
-    Se deu tudo você vera esta tela como mostra a imagem:
+    Se deu tudo certo, você vera esta tela como mostra a imagem abaixo:
     
   ![Alt text](https://miro.medium.com/max/1859/1*O6wYngBXLU22GqCYR8W9gg.png)
     
