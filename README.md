@@ -75,8 +75,12 @@
   ![Alt text](https://www.keycloak.org/docs/6.0/server_admin/keycloak-images/create-realm.png "add realm")
    
    
-  6 - no campo name iremos colocar o nome "Demo" Como mostra a imagem abaixo.
+   6 - no campo name iremos colocar o nome "Demo" Como mostra a imagem abaixo.
       Observação: Este nome é muito importante pois este nome estará na sua url que servirar para gerar o token.
   ![Alt text](https://www.keycloak.org/docs/latest/getting_started/keycloak-images/add-demo-realm.png "add realm")
     
-  7 - 
+   7 - Após a definição do nome do seu realm clique no botão create.E pronto!
+  
+   8 - será exibida a seguinte tela.
+  
+  ![Alt text](https://www.keycloak.org/docs/latest/getting_started/keycloak-images/demo-realm.png "create realm")
