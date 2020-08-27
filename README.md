@@ -34,6 +34,7 @@
   
   ![Alt text](https://www.keycloak.org/docs/latest/getting_started/keycloak-images/welcome.png "Criar usuario admin")
   
+  
   ## Fazer login no console de administração
   
   1 - Clique no link Administration Console na página de Boas-vindas ou vá diretamente para http://localhost:8080/auth/admin/ (o URL do console).
