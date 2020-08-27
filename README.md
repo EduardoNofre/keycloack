@@ -68,7 +68,7 @@
    
    4 - Ao passar o curso do mouse por cima do nome master será exibido um botão com a opção de adicionar um realm.Como mostra a imagem abaixo.
    
-      ![Alt text](https://www.keycloak.org/docs/6.0/server_admin/keycloak-images/add-realm-menu.png "master")
+   ![Alt text](https://www.keycloak.org/docs/6.0/server_admin/keycloak-images/add-realm-menu.png "master")
    
     
    
