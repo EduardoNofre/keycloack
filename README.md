@@ -70,5 +70,11 @@
    
    ![Alt text](https://www.keycloak.org/docs/6.0/server_admin/keycloak-images/add-realm-menu.png "master")
    
+   5 - clique no botão add real. Ao clicar você verá a tela abaixo:
+   
+  ![Alt text]( https://www.keycloak.org/docs/6.0/server_admin/keycloak-images/create-realm.png "add realm")
+   
+   
+  
     
    
