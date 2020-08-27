@@ -47,4 +47,18 @@
   
   ![Alt text](https://www.keycloak.org/docs/latest/getting_started/keycloak-images/admin-console.png "Admin console")
     
+   ## Criar um realm
+   
+   O que é o realm?
+   R: Como administrador na realm principal, você cria as realm onde os administradores criam usuários e aplicativos.
+   
+   Pré-requisitos:
+   
+     Keycloak está instalado.
+
+     Você tem a conta de administrador inicial para o console de administração.
+   
+   1 - Vá para o endereço  http://localhost:8080/auth/ e faça login no console de administração do Keycloak usando a conta de administrador.
+
+   2 - No menu Master, clique em Add Realm. Quando você está conectado ao domínio master, este menu lista todos os outros reinos.
     
