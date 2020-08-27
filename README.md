@@ -14,6 +14,18 @@
   
   2 - Vá para o diretório bin da distribuição do servidor.
   
-  3 - c:\ ..\bin\standalone.bat
+  3 - c:\ ..\bin\standalone.bat.
   
+ ## Criação da conta de administrador no keycloak
  
+  1 - Antes de poder usar o Keycloak, você precisa criar uma conta de administrador que usará para fazer login no console de administração do Keycloak.
+  
+  2 - Você não viu nenhum erro ao iniciar o servidor Keycloak. Por default sobe na porta localhost:8080.
+  
+  3 - Abra http://localhost:8080/auth em seu navegador.
+    
+    Se deu tudo você vera esta tela como mostra a imagem:
+    
+    [Alt text](http://full/path/to/img.jpg "Optional title")
+    
+    
