@@ -157,7 +157,9 @@
   
   7 - password foi criado junto com o seu usuario johndoe em credentials.
   
+  Se o token for gerado com sucesso sera exibido o token no seu postman.
   
+  ![Alt text](https://www.witekio.com/wp-content/uploads/2018/06/Keycloak-Step-8.png " token ")
   
   
 
