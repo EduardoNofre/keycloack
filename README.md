@@ -102,8 +102,13 @@
        
   ![Alt text](https://www.keycloak.org/docs/latest/getting_started/keycloak-images/add-user.png "Add user")
  
- 
-
+  6 - Clique na guia Credenciais para definir uma senha temporária para o novo usuário.
+  
+  7 - Digite uma nova senha e confirme-a.
+  
+  8 - Clique em Definir senha para definir a senha do usuário como a nova que você especificou.
+  
+  ![Alt text](https://www.keycloak.org/docs/latest/getting_started/keycloak-images/user-credentials.png "Add user")
     
     
   
