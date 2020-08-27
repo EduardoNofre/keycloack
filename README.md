@@ -15,6 +15,10 @@
   2 - Vá para o diretório bin da distribuição do servidor.
   
   3 - c:\ ..\bin\standalone.bat.
+
+    Se deu tudo certo, você vera esta tela como mostra a imagem abaixo:
+    
+  ![Alt text](https://miro.medium.com/max/1859/1*O6wYngBXLU22GqCYR8W9gg.png "Pagina Principal")
   
  ## Criação da conta de administrador no keycloak
  
@@ -24,8 +28,12 @@
   
   3 - Abra http://localhost:8080/auth em seu navegador.
     
-    Se deu tudo certo, você vera esta tela como mostra a imagem abaixo:
-    
-  ![Alt text](https://miro.medium.com/max/1859/1*O6wYngBXLU22GqCYR8W9gg.png)
+  4 - A página de boas-vindas é aberta, confirmando que o servidor está funcionando.Página de boas-vindas
+  
+  5 - Digite um nome de usuário e senha para criar um usuário admin inicial.
+  
+  ![Alt text](https://www.keycloak.org/docs/latest/getting_started/keycloak-images/welcome.png "Criar usuario admin")
+  
+  
     
     
