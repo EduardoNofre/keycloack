@@ -124,7 +124,41 @@
  
 ![Alt text](https://miro.medium.com/max/1000/1*X7gwlYVTHLzaEh_ygGbrQw.png  "Add Client")
 
-
+## Vamos testar 
+  
+  Para testar iremos utilizar o Postman. 
+  O que é Postman?
+  R: O Postman é uma ferramenta que tem como objetivo testar serviços RESTful (Web APIs) por meio do envio de requisições HTTP e da análise do seu retorno. Descrição: O Postman       é uma ferramenta que tem como objetivo testar serviços RESTful (Web APIs) por meio do envio de requisições HTTP e da análise do seu retorno.
+  
+  Garatntir que o Keycloack esteja sendo executado na sua maquina.
+  
+  1 - Abra o postman.
+  
+  2 - User o verbo post.
+  
+  3 - na url coloque o seguinte endereço
+    http://localhost:8080/auth/realms/XXXX/protocol/openid-connect/token
+     
+     Observação: Onde esta o XXXX você deve colocar o nome do seu realm o nome do nosso realm é demo. isso foi definido logo no inicio.
+     Logo a nossa URL fica assim:
+     http://localhost:8080/auth/realms/demo/protocol/openid-connect/token
+     
+  4 - selecione a opção Body e coloque as seguintes key e valor:
+     
+  #  Key                    Value
+    grant_type              password   
+    client_id               vue-test-app
+    username                johndoe
+    password                123123
+  
+  5 - vue-test-app é o Cliente que você mostrado aqui no exemplo.
+  
+  6 - johndoe é o usuario nome do usuario qye foi criado aqui neste exemplo.
+  
+  7 - password foi criado junto com o seu usuario johndoe em credentials.
+  
+  
+  
   
 
 
