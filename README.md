@@ -111,7 +111,20 @@
   
   ![Alt text](https://www.keycloak.org/docs/latest/getting_started/keycloak-images/user-credentials.png "Add user")
     
-    
+  
+ ## Adicionar um cliente:
+ 
+ 1 - É simples adicionar um cliente, o mesmo processo funciona para qualquer tipo de aplicação.
+ 
+ 2 - ID do cliente: você pode fornecer qualquer nome adequado para seu aplicativo.
+ 
+ 3 - Protocolo: ‘OpenID-Connect / SAML
+ 
+ 4 - URL root: nome do host do aplicativo
+ 
+![Alt text](https://miro.medium.com/max/1000/1*X7gwlYVTHLzaEh_ygGbrQw.png  "Add Client")
+
+
   
 
 
