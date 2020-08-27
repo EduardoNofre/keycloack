@@ -60,5 +60,15 @@
    
    1 - Vá para o endereço  http://localhost:8080/auth/ e faça login no console de administração do Keycloak usando a conta de administrador.
 
-   2 - No menu Master, clique em Add Realm. Quando você está conectado ao domínio master, este menu lista todos os outros reinos.
+   2 - Por default a master ja vem criada.No menu Master, clique em Add Realm. Quando você está conectado ao domínio master, este menu lista todos os outros reinos.
+   
+   3 - Assim que você se logar na aplicação do lado esquerdo superior você verá o nome Master. Como mostra a imagem abaixo.
+   
+   ![Alt text](https://www.keycloak.org/docs/6.0/server_admin/keycloak-images/kerberos-provider.png "master")
+   
+   4 - Ao passar o curso do mouse por cima do nome master será exibido um botão com a opção de adicionar um realm.Como mostra a imagem abaixo.
+   
+      ![Alt text](https://www.keycloak.org/docs/6.0/server_admin/keycloak-images/add-realm-menu.png "master")
+   
     
+   
