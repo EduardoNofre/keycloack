@@ -84,3 +84,28 @@
    8 - será exibida a seguinte tela.
   
   ![Alt text](https://www.keycloak.org/docs/latest/getting_started/keycloak-images/demo-realm.png "create realm")
+
+  ## Criar o usuario.
+  
+    1 - No realm demo, você cria um novo usuário e uma senha temporária para esse novo usuário.
+  
+    2 - No menu, clique em Usuários para abrir a página da lista de usuários.
+    
+    3 - No lado direito da lista de usuários vazia, clique em Adicionar usuário para abrir a página Adicionar usuário.
+    
+    4 - Insira um nome no campo Nome de usuário. Este é o único campo obrigatório!
+ 
+  ![Alt text](https://www.keycloak.org/docs/latest/getting_started/keycloak-images/add-user.png "Add user")
+   
+    5 - Mude o botão E-mail verificado para Ativado e clique em Salvar. Coloque o nome que desejar.
+       Vamos usar o nome abaixo:
+       
+  ![Alt text](https://www.keycloak.org/docs/latest/getting_started/keycloak-images/add-user.png "Add user")
+ 
+ 
+
+    
+    
+  
+
+
