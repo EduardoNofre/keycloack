@@ -122,6 +122,8 @@
  
  4 - URL root: nome do host do aplicativo
  
+ Obs: 
+ 
 ![Alt text](https://miro.medium.com/max/1000/1*X7gwlYVTHLzaEh_ygGbrQw.png  "Add Client")
 
 ## Vamos testar 
