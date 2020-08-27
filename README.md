@@ -145,7 +145,7 @@
      
   4 - selecione a opção Body e coloque as seguintes key e valor:
      
-  #  Key                    Value
+  ##  Key ----------------- Value
     grant_type              password   
     client_id               vue-test-app
     username                johndoe
