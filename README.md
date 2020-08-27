@@ -70,11 +70,13 @@
    
    ![Alt text](https://www.keycloak.org/docs/6.0/server_admin/keycloak-images/add-realm-menu.png "master")
    
-   5 - clique no botão add real. Ao clicar você verá a tela abaixo:
+   5 - clique no botão add realm. Ao clicar você verá a tela abaixo:
    
-  ![Alt text]( https://www.keycloak.org/docs/6.0/server_admin/keycloak-images/create-realm.png "add realm")
+  ![Alt text](https://www.keycloak.org/docs/6.0/server_admin/keycloak-images/create-realm.png "add realm")
    
    
-  
+  6 - no campo name iremos colocar o nome "Demo" Como mostra a imagem abaixo.
+      Observação: Este nome é muito importante pois este nome estará na sua url que servirar para gerar o token.
+  ![Alt text](https://www.keycloak.org/docs/latest/getting_started/keycloak-images/add-demo-realm.png "add realm")
     
    
