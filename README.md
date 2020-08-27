@@ -38,8 +38,13 @@
   
    1 - Clique no link Administration Console na página de Boas-vindas ou vá diretamente para http://localhost:8080/auth/admin/ (o URL do console).
    
-   2 - Digite o nome de usuário e a senha que você criou na página de boas-vindas para abrir o console de administração.
-
-Tela de login do Admin Console
+   2 - Digite o nome de usuário e a senha que você criou na página de boas-vindas para abrir o console de administração.Tela de login do Admin Console.
+   
+   ![Alt text](https://www.keycloak.org/docs/latest/getting_started/images/admin-login.png "Login")
+   
+   
+  3 - A tela inicial do console de administração é exibida.Admin console.
+  
+  ![Alt text](https://www.keycloak.org/docs/latest/getting_started/keycloak-images/admin-console.png "Admin console")
     
     
