@@ -145,7 +145,7 @@
      Logo a nossa URL fica assim:
      http://localhost:8080/auth/realms/demo/protocol/openid-connect/token
      
-  4 - selecione a opção Body e coloque as seguintes key e valor:
+  4 - selecione a opção Body e coloque as seguintes key e valor e marce a opção x-www-form-urlencoded
      
   ##  Key ----------------- Value
     grant_type              password   
