@@ -1,5 +1,9 @@
 # keycloack-gerar-token - Parte 1
- 
+
+## O que é o keycloack?
+
+Keycloak é uma solução de gerenciamento de acesso e identidade de código aberto que visa principalmente aplicativos e serviços. Os usuários podem autenticar com o Keycloak em vez de aplicativos individuais. Assim, as aplicações não precisam lidar com formulários de login, autenticando e armazenando usuários.
+
 ## Para este exemplo iremos utilizar o keycloak 11.0.1 no sistema operacional Windows
 
   1 - Baixe keycloak-11.0.1. [Zip | tar.gz] de downloads de Keycloak.
