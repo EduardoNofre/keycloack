@@ -118,11 +118,11 @@
  
  2 - ID do cliente: você pode fornecer qualquer nome adequado para seu aplicativo.
  
- 3 - Protocolo: ‘OpenID-Connect / SAML
+ 3 - Vamos usar o protocolo: ‘OpenID-Connect
  
  4 - URL root: nome do host do aplicativo
  
- Obs: 
+ Obs: Nos campos: Valid Redirect URIs, Admin URL e Web Origins neste campo será colocado a url da sua aplicação. e não a url do keycloack. 
  
 ![Alt text](https://miro.medium.com/max/1000/1*X7gwlYVTHLzaEh_ygGbrQw.png  "Add Client")
 
