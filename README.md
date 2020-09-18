@@ -192,7 +192,7 @@ Keycloak é uma solução de gerenciamento de acesso e identidade de código abe
   
   Pronto agora é so da um refresh na pagina e loga. 
   
-  ![Alt text](https://stackoverflow.com/questions/30622599/https-required-while-logging-in-to-keycloak-as-admin, referencia)
+   [referencia] (https://stackoverflow.com/questions/30622599/https-required-while-logging-in-to-keycloak-as-admin)
 
 # Fim
 
