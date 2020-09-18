@@ -169,7 +169,7 @@ Keycloak é uma solução de gerenciamento de acesso e identidade de código abe
   
   Caso não seja gerado o token rafaça o procedimento.
 
-# Importante key cloack na AWS
+# Importante keycloack na AWS
 
   Ao instalar o keycloack no amazon numa instancia EC2 tive uma problema ao tentar fazer o login como mostra a imagem." Problema "
   
