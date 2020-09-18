@@ -171,7 +171,7 @@ Keycloak é uma solução de gerenciamento de acesso e identidade de código abe
 
 # Importante keycloack na AWS
 
-  Ao instalar o keycloack no amazon numa instancia EC2 tive uma problema ao tentar fazer o login como mostra a imagem." Problema "
+  Ao instalar o keycloack no amazon numa instancia EC2 ubuntu tive uma problema ao tentar fazer o login como mostra a imagem." Problema "
   
   ![Alt text](https://miro.medium.com/max/700/1*ZKaU3tVY0OpSZQh-SaTojw.png)
   
