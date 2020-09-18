@@ -169,6 +169,29 @@ Keycloak é uma solução de gerenciamento de acesso e identidade de código abe
   
   Caso não seja gerado o token rafaça o procedimento.
 
+# Importante key cloack na AWS
+
+  Ao instalar o keycloack no amazon numa instancia EC2 tive uma problema ao tentar fazer o login como mostra a imagem." Problema "
+  
+  ![Alt text](https://miro.medium.com/max/700/1*ZKaU3tVY0OpSZQh-SaTojw.png)
+  
+  Indica que keycloack precisa ser execuatdo no protocolo HTTPS. Mas como toda aplicação o keycloack pode tambem ser execuatdo no protocolo HTTP.
+  
+  Para resolver o problema exibida na imagem basta seguir os passos abaixo.
+  
+  OBS: No meu caso o keycloack esta no docker.
+  
+  1 - O comando a seguir será utilizado para que você dentro do docker possa executar os comando ssh dentro do docker e acessar os direotrio da sua contaier.
+      docker exec -it {contaierID} bash
+      
+  2 - O proximo comando vai autorizar a sua url ser executada no protocolo http.
+  ./kcadm.sh config credentials --server http://xxxx:8080/auth --realm master --user admin --password admin
+  
+  3 - desabilitar o ssl
+  ./kcadm.sh update realms/master -s sslRequired=NONE
+  
+  Pronto agora é so da um refresh na pagina e loga. 
+
 # Fim
 
 
