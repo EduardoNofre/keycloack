@@ -183,12 +183,18 @@ Keycloak é uma solução de gerenciamento de acesso e identidade de código abe
   
   1 - O comando a seguir será utilizado para que você dentro do docker possa executar os comando ssh dentro do docker e acessar os direotrio da sua contaier.
   ### docker exec -it {contaierID} bash
-      
-  2 - O proximo comando vai autorizar a sua url ser executada no protocolo http.
-  ./kcadm.sh config credentials --server http://xxxx:8080/auth --realm master --user admin --password admin
   
-  3 - desabilitar o ssl
-  ./kcadm.sh update realms/master -s sslRequired=NONE
+  2 - Devemos procurar o seguinte diretorio.
+  keycloak/bin para ajudar a encontrar o direotrio use o comando
+  ### sudo updatedb
+  ### sudo locate keycloak
+   achou o diretorio keycloak va ate a pasta bin
+   
+  3 - O proximo comando vai autorizar a sua url ser executada no protocolo http.
+  ### ./kcadm.sh config credentials --server http://xxxx:8080/auth --realm master --user admin --password admin
+  
+  4 - desabilitar o ssl
+  ### ./kcadm.sh update realms/master -s sslRequired=NONE
   
   Pronto agora é so da um refresh na pagina e loga. 
   
