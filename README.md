@@ -180,20 +180,17 @@ Keycloak é uma solução de gerenciamento de acesso e identidade de código abe
   Para resolver o problema exibida na imagem basta seguir os passos abaixo.
   
   OBS: No meu caso o keycloack esta no docker.
-  
-  1 - O comando a seguir será utilizado para que você dentro do docker possa executar os comando ssh dentro do docker e acessar os direotrio da sua contaier.
-  ### docker exec -it {contaierID} bash
-  
-  2 - Devemos procurar o seguinte diretorio.
-  keycloak/bin para ajudar a encontrar o direotrio use o comando
+    
+  1 - Devemos procurar o seguinte diretorio. keycloak/bin 
+  para ajudar a encontrar o direotrio use o comando
   ### sudo updatedb
   ### sudo locate keycloak
-   achou o diretorio keycloak va ate a pasta bin
+   Agora que achou o diretorio keycloak va ate a pasta bin
    
-  3 - O proximo comando vai autorizar a sua url ser executada no protocolo http.
+  2 - O proximo comando vai autorizar a sua url ser executada no protocolo http.
   ### ./kcadm.sh config credentials --server http://xxxx:8080/auth --realm master --user admin --password admin
   
-  4 - desabilitar o ssl
+  3 - desabilitar o ssl
   ### ./kcadm.sh update realms/master -s sslRequired=NONE
   
   Pronto agora é so da um refresh na pagina e loga. 
