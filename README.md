@@ -59,7 +59,7 @@ Keycloak é uma solução de gerenciamento de acesso e identidade de código abe
    Pré-requisitos:   
      Keycloak está instalado.
       - Você tem a conta de administrador inicial para o console de administração.
-      - O **realm** nunca deve ser usado pois o mesmo e para gerenciamnto do keycloack
+      - O **realm master** nunca deve ser usado pois o mesmo e para gerenciamnto do keycloack
    
   1 - Vá para o endereço  http://localhost:8080/auth/ e faça login no console de administração do Keycloak usando a conta de administrador.
 
