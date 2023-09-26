@@ -65,18 +65,11 @@ Keycloak é uma solução de gerenciamento de acesso e identidade de código abe
 
   2 - Por default a master ja vem criada.No menu Master, clique em Add Realm. Quando você está conectado ao domínio master, este menu lista todos os outros reinos.
    
-  3 - Assim que você se logar na aplicação do lado esquerdo superior você verá o nome Master. Como mostra a imagem abaixo.
+  3 - Assim que você se logar na aplicação do lado esquerdo superior você verá o nome Master.
    
-   ![Alt text](https://www.keycloak.org/docs/6.0/server_admin/keycloak-images/kerberos-provider.png "master")
+  4 - Ao passar o curso do mouse por cima do nome master será exibido um botão com a opção de adicionar um realm.
    
-  4 - Ao passar o curso do mouse por cima do nome master será exibido um botão com a opção de adicionar um realm.Como mostra a imagem abaixo.
-   
-   ![Alt text](https://www.keycloak.org/docs/6.0/server_admin/keycloak-images/add-realm-menu.png "master")
-   
-  5 - clique no botão add realm. Ao clicar você verá a tela abaixo:
-   
-  ![Alt text](https://www.keycloak.org/docs/6.0/server_admin/keycloak-images/create-realm.png "add realm")
-   
+  5 - clique no botão add realm.    
    
   6 - no campo name iremos colocar o nome "Demo" Como mostra a imagem abaixo.
       Observação: Este nome é muito importante pois este nome estará na sua url que servirar para gerar o token.
