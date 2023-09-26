@@ -18,7 +18,7 @@ Keycloak é uma solução de gerenciamento de acesso e identidade de código abe
 
   2 - Vá para o diretório bin da distribuição do servidor.
 
-  3 - Execute  o cmando  C:\keycloack-localhost\keycloak-22.0.3\bin>kc.bat start-dev
+  3 - Execute  o cmando  **C:\keycloack-localhost\keycloak-22.0.3\bin>kc.bat start-dev**
 
   4 - Apos a execução do comando deve o resultado dev ser algo semelhante a resultado abaixo.
 
@@ -48,23 +48,18 @@ Keycloak é uma solução de gerenciamento de acesso e identidade de código abe
    
   2 - Digite o nome de usuário e a senha que você criou na página de boas-vindas para abrir o console de administração.Tela de login do Admin Console.
    
-   ![Alt text](https://www.keycloak.org/docs/latest/getting_started/images/admin-login.png "Login")
-   
-   
   3 - A tela inicial do console de administração é exibida.Admin console.
+  ![primiera](primiera.PNG)  
   
-  ![Alt text](https://www.keycloak.org/docs/latest/getting_started/keycloak-images/admin-console.png "Admin console")
-    
    ## Criar um realm
    
    O que é o realm?
-   R: Como administrador na realm principal, você cria as realm onde os administradores criam usuários e aplicativos.
+   R: O **realm** e como se fosse uma work space ou area de trabalho.
    
-   Pré-requisitos:
-   
+   Pré-requisitos:   
      Keycloak está instalado.
-
-     Você tem a conta de administrador inicial para o console de administração.
+      - Você tem a conta de administrador inicial para o console de administração.
+      - O **realm** nunca deve ser usado pois o mesmo e para gerenciamnto do keycloack
    
   1 - Vá para o endereço  http://localhost:8080/auth/ e faça login no console de administração do Keycloak usando a conta de administrador.
 
