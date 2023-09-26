@@ -55,12 +55,12 @@ Keycloak é uma solução de gerenciamento de acesso e identidade de código abe
    
    O que é o realm?<br>
    R: O **realm** e como se fosse uma work space ou area de trabalho.<br>
-   
+    - O **realm master** nunca deve ser usado pois o mesmo e para gerenciamnto do keycloack.
+    
    Pré-requisitos:   
      Keycloak está instalado.
       - Você tem a conta de administrador inicial para o console de administração.
-      - O **realm master** nunca deve ser usado pois o mesmo e para gerenciamnto do keycloack
-   
+     
   1 - Vá para o endereço  http://localhost:8080/auth/ e faça login no console de administração do Keycloak usando a conta de administrador.
 
   2 - Por default a master ja vem criada.No menu Master, clique em Add Realm. Quando você está conectado ao domínio master, este menu lista todos os outros reinos.
