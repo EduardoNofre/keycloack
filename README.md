@@ -4,9 +4,9 @@
 
 Keycloak é uma solução de gerenciamento de acesso e identidade de código aberto que visa principalmente aplicativos e serviços. Os usuários podem autenticar com o Keycloak em vez de aplicativos individuais. Assim, as aplicações não precisam lidar com formulários de login, autenticando e armazenando usuários.
 
-## Para este exemplo iremos utilizar o keycloak 11.0.1 no sistema operacional Windows
+## Para este exemplo iremos utilizar o keycloak 22.0.3 no sistema operacional Windows
 
-  1 - Baixe keycloak-11.0.1. [Zip | tar.gz] de downloads de Keycloak.
+  1 - Baixe keycloak-22.0.3 [Zip | tar.gz] de downloads de Keycloak.
 
   2 - Coloque o arquivo em um diretório de sua escolha.
 
@@ -18,11 +18,15 @@ Keycloak é uma solução de gerenciamento de acesso e identidade de código abe
 
   2 - Vá para o diretório bin da distribuição do servidor.
 
-  3 - c:\ ..\bin\standalone.bat.
+  3 - Execute  o cmando  C:\keycloack-localhost\keycloak-22.0.3\bin>kc.bat start-dev
 
-      Se deu tudo certo, você vera esta tela como mostra a imagem abaixo:
-    
-  ![Alt text](https://miro.medium.com/max/1859/1*O6wYngBXLU22GqCYR8W9gg.png "Pagina Principal")
+  4 - Apos a execução do comando deve o resultado dev ser algo semelhante a resultado abaixo.
+
+  ![console](console.PNG)
+
+  5 - Agora abra o seu browser e digite localhost:8080 e a seguinte tela sera exibida.
+
+  ![ciar](criarUsua.PNG)
   
  ## Criação da conta de administrador no keycloak
 
@@ -36,8 +40,7 @@ Keycloak é uma solução de gerenciamento de acesso e identidade de código abe
   
   5 - Digite um nome de usuário e senha para criar um usuário admin inicial.
   
-  ![Alt text](https://www.keycloak.org/docs/latest/getting_started/keycloak-images/welcome.png "Criar usuario admin")
-  
+  ![ciar](criarUsua.PNG)  
   
   ## Fazer login no console de administração
   
