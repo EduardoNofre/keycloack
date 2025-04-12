@@ -68,8 +68,7 @@ Ao executar o seu projeto pela primiera vez vai demorar um pouco pois o docker i
 </h1>
 
 ## 1 - vamos o criar o arquivo 'docker-compose.yml' e o 'init-schema.sql' como no exemplo abaixo.
-
-     - arquivo 1 : docker-compose.yml
+  - arquivo 1 : docker-compose.yml
 
                   services:
                     postgres:
