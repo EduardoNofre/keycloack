@@ -12,18 +12,19 @@
 <p align="left">
 • <a href="#---docker-compose-">Docker Compose</a><br>
 • <a href="#---keycloack-">keycloack</a><br>
-• <a href="#--requisito-mínimo-antes-de-começar">Requisito mínimo antes de começar</a><br> 				
-• <a href="#--arquivo-docker-composeyml">Arquivo docker-compose.yml</a><br>  					
-• <a href="#2---vamos-criar-o-arquivoe-o-init-schemasql-como-no-exemplo-abaixo"> Adicionando um Client</a><br>  							
-• <a href="#--executando-o-arquivo-docker-composeyml-"> Criando as roles</a><br>  								
-• <a href="#criação-da-conta-de-administrador-no-keycloak"> Criando um grupo</a><br>  								
-• <a href="#criando-um-realm"> Criando o usuario</a><br> 						
-• <a href="#----criando-o-usuario--"> Criando um realm</a><br>  								
-• <a href="#----criando-um-grupo--"> Criação da conta de administrador no keycloak</a><br>   	
-• <a href="#----criando-as-roles--"> Executando o arquivo 'docker-compose.yml'</a><br>  		
-• <a href="#----adicionando-um-client--"> Arquivo init-schema.sql</a><br>						
-• <a href="#----adicionando-um-client-scopes--"> Arquivo docker-compose.yml</a><br>					
-• <a href="#----vamos-testar-o-usuario-criado--"> Requisito mínimo antes de começar!</a><br>	
+• <a href="#--requisito-mínimo-antes-de-começar">Requisito mínimo antes de começar</a><br>   
+• <a href="#--arquivo-docker-composeyml">Arquivo docker-compose.yml</a><br>  	  
+• <a href="#--arquivo-init-schemasql">Arquivo init-schema.sql</a><br>  				
+• <a href="#--executando-o-arquivo-docker-composeyml-">Executando o arquivo 'docker-compose.yml'</a><br>  								
+• <a href="#criação-da-conta-de-administrador-no-keycloak">Criação da conta de administrador no keycloak</a><br>  	
+
+• <a href="#criando-um-realm">Criando um realm</a><br> 						
+• <a href="#----criando-o-usuario--">Criando o usuario</a><br>  								
+• <a href="#----criando-um-grupo--">Criando um grupo</a><br>   	
+• <a href="#----criando-as-roles--">Criando as roles</a><br>  		
+• <a href="#----adicionando-um-client--">Adicionando um Client</a><br>						
+• <a href="#----adicionando-um-client-scopes--">Adicionando um Client scopes</a><br>					
+• <a href="#----vamos-testar-o-usuario-criado--">Vamos testar o usuario criado!</a><br>	
 </p>
 
 
