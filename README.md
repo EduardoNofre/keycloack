@@ -12,8 +12,8 @@
 <p align="left">
 • <a href="#---docker-compose-">Docker Compose</a><br>
 • <a href="#---keycloack-">keycloack</a><br>
-• <a href="#--requisito-mínimo-antes-de-começar"> Vamos testar o usuario criado</a><br> 				
-• <a href="#--arquivo-docker-composeyml"> Adicionando um Client scopes</a><br>  					
+• <a href="#--requisito-mínimo-antes-de-começar">Requisito mínimo antes de começar</a><br> 				
+• <a href="#--arquivo-docker-composeyml">Arquivo docker-compose.yml</a><br>  					
 • <a href="#2---vamos-criar-o-arquivoe-o-init-schemasql-como-no-exemplo-abaixo"> Adicionando um Client</a><br>  							
 • <a href="#--executando-o-arquivo-docker-composeyml-"> Criando as roles</a><br>  								
 • <a href="#criação-da-conta-de-administrador-no-keycloak"> Criando um grupo</a><br>  								
@@ -79,12 +79,12 @@ ter o banco de dados postgrees instalado em seu computador.
 
 # Requisito mínimo atendido.
 
-# 1 - Vamos criar o arquivo 'docker-compose.yml' como no exemplo abaixo.
-
 <h1 align="center">
   Arquivo docker-compose.yml.
 </h1
-  
+
+# 1 - Vamos criar o arquivo 'docker-compose.yml' como no exemplo abaixo.
+
 ##  Arquivo docker-compose.yml
 
                   services:
@@ -133,11 +133,12 @@ No exemplo acima 'docker-compose.yml' podemos observar dois serviços são eles.
 Cada serviço com as suas configuraçoes, portas, redes ...<br>
           
 
-# 2 - Vamos criar o arquivoe o 'init-schema.sql' como no exemplo abaixo.
-
 <h1 align="center">
   Arquivo init-schema.sql.
 </h1
+  
+# 2 - Vamos criar o arquivoe o 'init-schema.sql' como no exemplo abaixo.
+
 ##  Arquivo  'init-schema.sql'
 
               DO $$
