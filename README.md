@@ -67,8 +67,8 @@ Ao executar o seu projeto pela primiera vez vai demorar um pouco pois o docker i
   Requisito mínimo atendido.
 </h1>
 
-# 1 - vamos criar os arquivo 'docker-compose.yml' e o 'init-schema.sql' como no exemplo abaixo.
-  - arquivo 1 : docker-compose.yml
+# 1 - Vamos criar o arquivo 'docker-compose.yml' como no exemplo abaixo.
+##  Arquivo docker-compose.yml
 
                   services:
                     postgres:
@@ -107,7 +107,16 @@ Ao executar o seu projeto pela primiera vez vai demorar um pouco pois o docker i
                     keycloak_network:
                       driver: bridge
 
-  - arquivo 2 : init-schema.sql
+# 1.1 - O Arquivo compose 'docker-compose.yml'.
+    Compose é uma ferramenta para gerenciar múltiplos contêineres.
+    No exemplo acima 'docker-compose.yml' podemos observar dois serviços são eles.
+           - postgres
+           - keycloak
+   Cada serviço com as suas configuraçoes, portas, redes ...
+          
+
+# 2 - Vamos criar o arquivoe o 'init-schema.sql' como no exemplo abaixo.
+##  Arquivo  init-schema.sql
 
               DO $$
                 BEGIN
@@ -121,8 +130,9 @@ Ao executar o seu projeto pela primiera vez vai demorar um pouco pois o docker i
                 END
                 $$;
 
-
-# 1 - Arquivo compose 'docker-compose.yml'
+# 2.1 - O Arquivo compose 'init-schema.sql'.
+  sql é um script de criação de schema_name e nome da schema_name.
+  O Arquivo compose 'docker-compose.yml' faz a chamada deste sql apos a instalação do postgrees.
 
 
 
