@@ -190,8 +190,8 @@ Cada serviço com as suas configuraçoes, portas, redes ...<br>
 Criação da conta de administrador no keycloak
 </h1>
 
-  1 - O usuario administrador console foi criado em seu arquivo **'docker-compose.yml'** <br> 
-     - usuario: admin <br>
+  1 - O usuário   administrador console foi criado em seu arquivo **'docker-compose.yml'** <br> 
+     - usuário  : admin <br>
      - senha: admin <br>
 
   2 - Abra http://localhost:8080/auth
@@ -210,7 +210,7 @@ Criando um realm
   ## O que é o realm?<br>
    R: O **realm** e como se fosse uma work space um agrupamento de recursos.<br>
    recursos:<br>
-        usuarios.<br>
+        usuário  s.<br>
         Roles.<br>
         Grupos.<br>
         Regras.<br>
@@ -232,7 +232,7 @@ Criando um realm
   
 
   <h1 align="center">
-    Criando o usuario.
+    Criando o usuário  .
   </h1>
   
   1 - No realm **"REALM_SISTEMA"**, você cria um novo usuário.
@@ -242,7 +242,7 @@ Criando um realm
   3 - No lado direito da lista de usuários vazia, clique em **Adicionar usuário** para abrir a página Adicionar usuário.
     
   4 - Insira um nome no campo nome de usuário e um email no campo Email e clique em salvar.<br>
-        **nome usuario: eduardo1**<br>
+        **nome usuário  : eduardo1**<br>
         **email: eduardo1@email**com<br>
         **senha: 123123**<br>
               
@@ -266,11 +266,11 @@ Criando um realm
  
  4 - URL root: nome do host do aplicativo
 
- 5 - Vá novamente na opção **usuarios** e selecione o usuario **'eduardo1'** selecione a **'aba Groups'**.
+ 5 - Vá novamente na opção **usuário  s** e selecione o usuário   **'eduardo1'** selecione a **'aba Groups'**.
 
- 6 - Selecione o **Groups** que você acabou de criar no caso  **'Administrador'** será feita associação do usuario **'eduardo1'** ao grupo **'Administrador'** client em join.
+ 6 - Selecione o **Groups** que você acabou de criar no caso  **'Administrador'** será feita associação do usuário   **'eduardo1'** ao grupo **'Administrador'** client em join.
 
- 7  - Validar volte para a opção **'Groups'** selecione o grupo  **'Administrador'** vá na aba **Menbers** la estará o usuario **'eduardo1'** associado ao grupo **'Administrador'**.
+ 7  - Validar volte para a opção **'Groups'** selecione o grupo  **'Administrador'** vá na aba **Menbers** la estará o usuário   **'eduardo1'** associado ao grupo **'Administrador'**.
 
   <h1 align="center">
     Criando as roles
@@ -287,7 +287,7 @@ Criando um realm
 
  5 - Volte para a opção **'Groups'** selecione a aba **'Role mapping'** e faça a **associação com a role que você acabou** de criar no caso **'Administrador_role'**.
 
- 6 - Selecione o groups que você acabou de criar no caso  **'Administrador'** será feita associação do usuario **'eduardo1'** ao grupo **'Administrador'** client em join.
+ 6 - Selecione o groups que você acabou de criar no caso  **'Administrador'** será feita associação do usuário   **'eduardo1'** ao grupo **'Administrador'** client em join.
       
   <h1 align="center">
     Adicionando um Client
@@ -333,7 +333,7 @@ Criando um realm
  6 - Volte para a opção **Client scopes** e Clique na aba **Mappers** selecione **Client roles**  na opçao **Client ID** selecione o client que você criou no nosso caso a **client_sistema**.
 
   <h1 align="center">
-    Vamos testar o usuario criado.
+    Vamos testar o usuário   criado.
   </h1>
 
   1 - Vá em **Client**.
@@ -351,9 +351,9 @@ Criando um realm
 </p>
 
 5 - clique em **Personal info** e digite:<br>
-        **usuario: eduardo1**<br>
+        **usuário  : eduardo1**<br>
         **senha: 123123**<br>
-Se tudo der certo você sera direcionado para a tela principal do usuario.<br>
+Se tudo der certo você sera direcionado para a tela principal do usuário  .<br>
    
 
 # Fim
