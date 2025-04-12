@@ -50,7 +50,7 @@ Ter o docker desktop instalado na maquina.
 Para instalar é facil é só ir na pagina do docker fazer download de acordo com seu S.O e instalar.
 
 ## 2 - Step. 
-Observação.
+Observação.<br>
 Para executar o seu projeto, o docker desktop deve esta sendo execuatdo em sua maquina. Caso contrario vai da erro.
 
 ## 3 - Step.
