@@ -164,7 +164,7 @@ Cada serviço com as suas configuraçoes, portas, redes ... e assim por diante<b
 
   3 - Após a execução do comando isso pode levar alguns minutos.
 
-#  saida:
+#  • Saida:
 
 <p align="center">
   <img src="https://github.com/EduardoNofre/keycloack/blob/master/Captura%20de%20tela%202025-04-12%20012446.png" alt="Sublime's custom image"/>  
@@ -177,7 +177,7 @@ Cada serviço com as suas configuraçoes, portas, redes ... e assim por diante<b
 
  5 - Verificando se as imagens estão rodando execute o comando 'docker ps':
 
-  #  saida:
+  #  • Saida:
 
 <p align="center">
   <img src="https://github.com/EduardoNofre/keycloack/blob/master/dockerps.png" alt="Sublime's custom image"/>  
