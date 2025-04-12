@@ -165,7 +165,7 @@ Cada serviço com as suas configuraçoes, portas, redes ...<br>
     
   3 - A página de boas-vindas é aberta, confirmando que o servidor está funcionando.Página de boas-vindas
   
-  5 - Digite um nome de usuário e senha para criar um usuário admin inicial.
+  5 - Digite usuario e senha  que esta no 'docker-compose.yml'.
   
   ![ciar](criarUsua.PNG)  
   
