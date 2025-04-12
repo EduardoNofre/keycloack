@@ -38,6 +38,33 @@ Console de gerenciamento de contas, console admin para gerenciamento central de 
 ## Suporte de protocolos?
 Compatível com protocolos de autenticação como OAuth 2.0, OpenID Connect e SAML.
 
+
+<h1 align="center">
+  Mão na massa
+</h1>
+
+# Requisito mínimo para antes de começar!.
+
+## 1 - Step;
+Ter o docker desktop instalado na maquina.
+Para instalar é facil é só ir na pagina do docker fazer download de acordo com seu S.O e instalar.
+
+## 2 - Step. 
+Observação.
+Para executar o seu projeto, o docker desktop deve esta sendo execuatdo em sua maquina. Caso contrario vai da erro.
+
+## 3 - Step.
+Ao executar o seu projeto pela primiera vez vai demorar um pouco pois o docker irá fazer o pull das imagens para a sua maquina.
+
+## Para este exemplo iremos utilizar o keycloak 22.0.3 no sistema operacional Windows
+
+  1 - Baixe keycloak-22.0.3 [Zip | tar.gz] de downloads de Keycloak.
+
+  2 - Coloque o arquivo em um diretório de sua escolha.
+
+  3 - Descompacte o arquivo ZIP usando o utilitário de descompactação apropriado, como jar, tar ou unzip.
+
+
 ## Para este exemplo iremos utilizar o keycloak 22.0.3 no sistema operacional Windows
 
   1 - Baixe keycloak-22.0.3 [Zip | tar.gz] de downloads de Keycloak.
