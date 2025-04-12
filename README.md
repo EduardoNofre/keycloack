@@ -139,9 +139,9 @@ Cada serviço com as suas configuraçoes, portas, redes ...<br>
 
 #  saida:
 
-      <p align="center">
-        <img src="https://github.com/EduardoNofre/keycloack/blob/master/Captura%20de%20tela%202025-04-12%20012446.png" alt="Sublime's custom image"/>  
-      </p>
+<p align="center">
+  <img src="https://github.com/EduardoNofre/keycloack/blob/master/Captura%20de%20tela%202025-04-12%20012446.png" alt="Sublime's custom image"/>  
+</p>
       
  4 -  Com isso o Keycloak estará no ar e o schema e tabelas deve esta criado em seu banco de dados.<br>  
         1 - O Keycloak ira a tabelas necessaria para o seu controles e gerencimaneto.<br>
@@ -152,9 +152,9 @@ Cada serviço com as suas configuraçoes, portas, redes ...<br>
 
   #  saida:
 
-     <p align="center">
-        <img src="https://github.com/EduardoNofre/keycloack/blob/master/dockerps.png" alt="Sublime's custom image"/>  
-      </p>
+<p align="center">
+  <img src="https://github.com/EduardoNofre/keycloack/blob/master/dockerps.png" alt="Sublime's custom image"/>  
+</p>
         
 
 
