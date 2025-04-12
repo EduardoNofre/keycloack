@@ -286,80 +286,37 @@ Criar um realm
           Exemplo como fica -> **/realms/REALM_SISTEMA/account/*.** realm que criamos logo no inicio **REALM_SISTEMA**.<br>           
                 
 
+  <h1 align="center">
+    Adicionar um Client scopes
+  </h1>
 
-
+ 1 - Vá em **Client scopes**.
  
+ 2 - Clique na opção  **Roles**.
  
- Obs: Nos campos: Valid Redirect URIs, Admin URL e Web Origins neste campo será colocado a url da sua aplicação. e não a url do keycloack. 
+ 3 - Clique na aba **scopes**.
  
-![Alt text](https://miro.medium.com/max/1000/1*X7gwlYVTHLzaEh_ygGbrQw.png  "Add Client")
+ 4 - Clique no **botão next**.
 
-## Vamos testar 
-  
-  Para testar iremos utilizar o Postman. 
-  O que é Postman?
-  R: O Postman é uma ferramenta que tem como objetivo testar serviços RESTful (Web APIs) por meio do envio de requisições HTTP e da análise do seu retorno. Descrição: O Postman       é uma ferramenta que tem como objetivo testar serviços RESTful (Web APIs) por meio do envio de requisições HTTP e da análise do seu retorno.
-  
-  Garatntir que o Keycloack esteja sendo executado na sua maquina.
-  
-  1 - Abra o postman.
-  
-  2 - User o verbo post.
-  
-  3 - na url coloque o seguinte endereço
-    http://localhost:8080/auth/realms/XXXX/protocol/openid-connect/token
-     
-     Observação: Onde esta o XXXX você deve colocar o nome do seu realm o nome do nosso realm é demo. isso foi definido logo no inicio.
-     Logo a nossa URL fica assim:
-     http://localhost:8080/auth/realms/demo/protocol/openid-connect/token
-     
-  4 - selecione a opção Body e coloque as seguintes key e valor e marce a opção x-www-form-urlencoded
-     
-  ##  Key ----------------- Value
-    grant_type              password   
-    client_id               vue-test-app
-    username                johndoe
-    password                123123
-  
-  5 - vue-test-app é o Cliente que você mostrado aqui no exemplo.
-  
-  6 - johndoe é o usuario nome do usuario qye foi criado aqui neste exemplo.
-  
-  7 - password foi criado junto com o seu usuario johndoe em credentials.
-  
-  Se o token for gerado com sucesso sera exibido o token no seu postman.
-  
-  ![Alt text](https://www.witekio.com/wp-content/uploads/2018/06/Keycloak-Step-8.png " token ")
-  
-  Caso não seja gerado o token rafaça o procedimento.
+ 5 - Nesta aba estará todas as roles que você criou no nosso caso **'Administrador_role'** seleciona a sua role e clique no botão **Assign**.
 
-# Importante keycloack na AWS
+ 6 - Volte para a opção **Client scopes** e Clique na aba **Mappers** selecione **Client roles**  na opçao **Client ID** selecione o client que você criou no nosso caso a **client_sistema**.
 
-  Ao instalar o keycloack no amazon numa instancia EC2 ubuntu tive uma problema ao tentar fazer o login como mostra a imagem." Problema "
-  
-  ![Alt text](https://miro.medium.com/max/700/1*ZKaU3tVY0OpSZQh-SaTojw.png)
-  
-  Indica que keycloack precisa ser execuatdo no protocolo HTTPS. Mas como toda aplicação o keycloack pode tambem ser execuatdo no protocolo HTTP.
-  
-  Para resolver o problema exibida na imagem basta seguir os passos abaixo.
-  
-  OBS: No meu caso o keycloack esta no docker.
-    
-  1 - Devemos procurar o seguinte diretorio. keycloak/bin 
-  para ajudar a encontrar o direotrio use o comando
-  ### sudo updatedb
-  ### sudo locate keycloak
-   Agora que achou o diretorio keycloak va ate a pasta bin
+  <h1 align="center">
+    Vamos testar o usuario 'eduardo1'
+  </h1>
+
+  1 - Vá em **Client**.
+ 
+ 2 - Selecione o client que foi criado por nos  **client_sistema** .
+ 
+ 3 - Na linha do nosso cliente existe uma URL **http://localhost:8080/auth/realms/REALM_SISTEMA/account/**.
+ 
+ 4 - Clique na url **http://localhost:8080/auth/realms/REALM_SISTEMA/account/** logo você será redirecionado para uma tela de login de teste.
+
+ Será exibida a seguinte tela.
+
    
-  2 - O proximo comando vai autorizar a sua url ser executada no protocolo http.
-  ### ./kcadm.sh config credentials --server http://xxxx:8080/auth --realm master --user admin --password admin
-  
-  3 - desabilitar o ssl
-  ### ./kcadm.sh update realms/master -s sslRequired=NONE
-  
-  Pronto agora é so da um refresh na pagina e loga. 
-  
-   [Referencia stackoverflow](https://stackoverflow.com/questions/30622599/https-required-while-logging-in-to-keycloak-as-admin)
 
 # Fim
 
