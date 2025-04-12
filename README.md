@@ -67,7 +67,9 @@ Ao executar o seu projeto pela primiera vez vai demorar um pouco pois o docker i
   Requisito mínimo atendido.
 </h1>
 
-## 1 - vamos o criar o arquivo 'docker-compose.yml' como no exemplo abaixo.
+## 1 - vamos o criar o arquivo 'docker-compose.yml' e o 'init-schema.sql' como no exemplo abaixo.
+
+     - arquivo 1 : docker-compose.yml
 
                   services:
                     postgres:
@@ -106,7 +108,19 @@ Ao executar o seu projeto pela primiera vez vai demorar um pouco pois o docker i
                     keycloak_network:
                       driver: bridge
 
+  - arquivo 2 : init-schema.sql
 
+                    DO $$
+                BEGIN
+                    IF NOT EXISTS(
+                        SELECT schema_name
+                        FROM information_schema.schemata
+                        WHERE schema_name = 'keycloak_schema'
+                    ) THEN
+                        EXECUTE 'CREATE SCHEMA keycloak_schema';
+                    END IF;
+                END
+                $$;
 
 ## Para este exemplo iremos utilizar o keycloak 22.0.3 no sistema operacional Windows
 
