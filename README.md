@@ -155,7 +155,7 @@ Cada serviço com as suas configuraçoes, portas, redes ...<br>
 
 # 2.1 - O Arquivo compose 'init-schema.sql'.
   **SQL** é um script de criação de schema_name e nome da schema_name.<br>
-  O Arquivo compose **'docker-compose.yml'** faz a chamada deste sql apos a instalação do postgrees.<br>
+  O Arquivo compose **'docker-compose.yml'** faz a chamada deste sql após a instalação do postgrees.<br>
 
 <h1 align="center">
   Executando o arquivo 'docker-compose.yml' 
@@ -165,7 +165,7 @@ Cada serviço com as suas configuraçoes, portas, redes ...<br>
 
   2 - No diretorio onde esta o arquivo  execute o comando **docker-compose up -d**.
 
-  3 - Apos a execução do comando isso pode levar alguns minutos.
+  3 - Após a execução do comando isso pode levar alguns minutos.
 
 #  saida:
 
