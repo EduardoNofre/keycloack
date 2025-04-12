@@ -39,9 +39,7 @@ Console de gerenciamento de contas, console admin para gerenciamento central de 
 Compatível com protocolos de autenticação como OAuth 2.0, OpenID Connect e SAML.
 
 
-<h1 align="center">
-  Mão na massa
-</h1>
+
 
 # Requisito mínimo para antes de começar!.
 
@@ -63,6 +61,51 @@ Ao executar o seu projeto pela primiera vez vai demorar um pouco pois o docker i
   2 - Coloque o arquivo em um diretório de sua escolha.
 
   3 - Descompacte o arquivo ZIP usando o utilitário de descompactação apropriado, como jar, tar ou unzip.
+
+
+<h1 align="center">
+  Requisito mínimo atendido.
+</h1>
+
+## 1 - vamos o criar o arquivo 'docker-compose.yml' como no exemplo abaixo.
+
+                  services:
+                    postgres:
+                      image: postgres
+                      environment:
+                        POSTGRES_DB: keycloak
+                        POSTGRES_USER: keycloak
+                        POSTGRES_PASSWORD: keycloak
+                      volumes:
+                        - C:/java-estudos-2025/banco_db_postgres_docker:/var/lib/postgresql/data
+                        - ./init-schema.sql:/docker-entrypoint-initdb.d/init-schema.sql
+                      ports:
+                       - 3333:5432
+                      networks:
+                        - keycloak_network
+                   
+                    keycloak:
+                      image: quay.io/keycloak/keycloak:legacy
+                      environment:
+                        DB_VENDOR: POSTGRES
+                        DB_ADDR: postgres
+                        DB_DATABASE: keycloak
+                        DB_USER: keycloak
+                        DB_SCHEMA: keycloak_schema
+                        DB_PASSWORD: keycloak
+                        KEYCLOAK_USER: admin
+                        KEYCLOAK_PASSWORD: admin
+                      ports:
+                        - 8080:8080
+                      depends_on:
+                        - postgres
+                      networks:
+                        - keycloak_network
+                        
+                  networks:
+                    keycloak_network:
+                      driver: bridge
+
 
 
 ## Para este exemplo iremos utilizar o keycloak 22.0.3 no sistema operacional Windows
