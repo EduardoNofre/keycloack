@@ -277,11 +277,11 @@ Criar um realm
    - 6.1 - Campo **Name** defina o valor ${client_account}.<br>
    - 6.2 - Campo **Root url** ${authBaseUrl}<br>
    - 6.3 - Campo **Home url** <br>
-         - 6.3.1 - Observação: <br>
+     - 6.3.1 - Observação: <br>
           Padrão -> **Home url /realms/SEU-REALM/account/** <br>
           Exemplo como fica -> **/realms/REALM_SISTEMA/account/** realm que criamos logo no inicio **REALM_SISTEMA**.<br>
-  - 6.4 - Campo **Valid redirect URIs** **/realms/REALM_SISTEMA/account/*.** <br>
-         - 6.4.1 - Observação: <br>
+  - 6.4 - Campo **Valid redirect URIs** <br>
+    - 6.4.1 - Observação: <br>
           Padrão -> **Valid redirect URIs /realms/SEU-REALM/account/*.** <br>
           Exemplo como fica -> **/realms/REALM_SISTEMA/account/*.** realm que criamos logo no inicio **REALM_SISTEMA**.<br>           
                 
