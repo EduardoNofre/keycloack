@@ -136,8 +136,8 @@ Cada serviço com as suas configuraçoes, portas, redes ...<br>
 <h1 align="center">
   Arquivo init-schema.sql.
 </h1
-  
-# 2 - Vamos criar o arquivoe o 'init-schema.sql' como no exemplo abaixo.
+
+# 2 - Vamos criar o arquivo o 'init-schema.sql' como no exemplo abaixo.
 
 ##  Arquivo  'init-schema.sql'
 
