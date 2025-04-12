@@ -146,7 +146,9 @@ Cada serviço com as suas configuraçoes, portas, redes ...<br>
 
   saida:
 
-
+<p align="center">
+  <img src="https://github.com/EduardoNofre/keycloack/blob/master/Captura%20de%20tela%202025-04-12%20012446.png" alt="Sublime's custom image"/>  
+</p>
 
 ## Para este exemplo iremos utilizar o keycloak 22.0.3 no sistema operacional Windows
 
