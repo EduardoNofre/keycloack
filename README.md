@@ -1,6 +1,6 @@
-<h1 align="center">
+<p align="center">
   <img src="https://github.com/EduardoNofre/keycloack/blob/master/dockerCompose.jpg" alt="Sublime's custom image"/>  
-</h1>
+</p>
 
 <h1 align="center">
   Docker Compose + keycloack   
@@ -8,8 +8,24 @@
 
 
 
+<p align="center">
+   Docker Compose 
+</p>
 ## O que é Docker Compose?
 O Docker Compose é uma ferramenta que permite definir e gerir aplicações Docker que usam vários contêineres. Ele facilita a execução de serviços interconectados, como bancos de dados, APIs e front-end.<br>
+
+## Como funciona?
+Define serviços em um arquivo YAML e os inicia com um único comando.
+
+## O que faz?
+Orquestra containers, cria redes, constrói imagens e vincula contêineres.
+
+## Quem usa?
+Profissionais de desenvolvimento, teste, staging, CI e DevOps.
+
+<p align="center">
+   keycloack 
+</p>
 
 ## O que é o keycloack?
 Keycloak é uma solução de gerenciamento de acesso e identidade de código aberto que visa principalmente aplicativos e serviços. Os usuários podem autenticar com o Keycloak em vez de aplicativos individuais. Assim, as aplicações não precisam lidar com formulários de login, autenticando e armazenando usuários.
