@@ -1,6 +1,15 @@
-# Docker Compose + keycloack 
+<h1 align="center">
+  <img src="https://github.com/EduardoNofre/Spring-docker-compose/blob/main/hq720.jpg" alt="Sublime's custom image"/>  
+</h1>
+
+<h1 align="center">
+  Docker Compose + keycloack   
+</h1>
+
+
 
 ## O que é Docker Compose?
+O Docker Compose é uma ferramenta que permite definir e gerir aplicações Docker que usam vários contêineres. Ele facilita a execução de serviços interconectados, como bancos de dados, APIs e front-end.<br>
 
 ## O que é o keycloack?
 
