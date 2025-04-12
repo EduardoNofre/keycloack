@@ -105,15 +105,16 @@ Ao executar o seu projeto pela primiera vez vai demorar um pouco pois o docker i
                       driver: bridge
 
 # 1.1 - O Arquivo compose 'docker-compose.yml'.
-    Compose é uma ferramenta para gerenciar múltiplos contêineres.
-    No exemplo acima 'docker-compose.yml' podemos observar dois serviços são eles.
-           - postgres
-           - keycloak
-   Cada serviço com as suas configuraçoes, portas, redes ...
+##  Arquivo  'docker-compose.yml'
+Compose é uma ferramenta para gerenciar múltiplos contêineres.<br>
+No exemplo acima 'docker-compose.yml' podemos observar dois serviços são eles.<br>
+        - postgres<br>
+        - keycloak<br>
+Cada serviço com as suas configuraçoes, portas, redes ...<br>
           
 
 # 2 - Vamos criar o arquivoe o 'init-schema.sql' como no exemplo abaixo.
-##  Arquivo  init-schema.sql
+##  Arquivo  'init-schema.sql'
 
               DO $$
                 BEGIN
