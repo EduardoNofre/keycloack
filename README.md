@@ -83,8 +83,9 @@ ter o banco de dados postgrees instalado em seu computador.
   Arquivo docker-compose.yml.
 </h1
 
-# 1 - Vamos criar o arquivo 'docker-compose.yml' como no exemplo abaixo.
 
+
+# 1 - Vamos criar o arquivo 'docker-compose.yml' como no exemplo abaixo.
 ##  Arquivo docker-compose.yml
 
                   services:
