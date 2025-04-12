@@ -51,13 +51,8 @@ Para executar o seu projeto, o docker desktop deve esta sendo execuatdo em sua m
 ## 3 - Step.
 Ao executar o seu projeto pela primiera vez vai demorar um pouco pois o docker irá fazer o pull das imagens para a sua maquina.
 
-## Para este exemplo iremos utilizar o keycloak 22.0.3 no sistema operacional Windows
-
-  1 - Baixe keycloak-22.0.3 [Zip | tar.gz] de downloads de Keycloak.
-
-  2 - Coloque o arquivo em um diretório de sua escolha.
-
-  3 - Descompacte o arquivo ZIP usando o utilitário de descompactação apropriado, como jar, tar ou unzip.
+## 4 - Step.
+ter o banco de dados postgrees instalado em seu computador.
 
 
 <h1 align="center">
@@ -132,8 +127,6 @@ Cada serviço com as suas configuraçoes, portas, redes ...<br>
   SQL é um script de criação de schema_name e nome da schema_name.<br>
   O Arquivo compose 'docker-compose.yml' faz a chamada deste sql apos a instalação do postgrees.<br>
 
-
-
 <h1 align="center">
   Executando o arquivo 'docker-compose.yml' 
 </h1>
@@ -144,19 +137,25 @@ Cada serviço com as suas configuraçoes, portas, redes ...<br>
 
   3 - Apos a execução do comando isso pode levar alguns minutos.
 
-  saida:
+#  saida:
 
-<p align="center">
-  <img src="https://github.com/EduardoNofre/keycloack/blob/master/Captura%20de%20tela%202025-04-12%20012446.png" alt="Sublime's custom image"/>  
-</p>
+      <p align="center">
+        <img src="https://github.com/EduardoNofre/keycloack/blob/master/Captura%20de%20tela%202025-04-12%20012446.png" alt="Sublime's custom image"/>  
+      </p>
+      
+ 4 -  Com isso o Keycloak estará no ar e o schema e tabelas deve esta criado em seu banco de dados.<br>  
+        1 - O Keycloak ira a tabelas necessaria para o seu controles e gerencimaneto.<br>
+        2 - A imagem Keycloak deve esta em execução.
+        3 - A imagem do postgrees também deve esta em execução.
 
-## Para este exemplo iremos utilizar o keycloak 22.0.3 no sistema operacional Windows
+ 5 - Verificando se as imagens estão rodando execute o comando 'docker ps':
 
-  1 - Baixe keycloak-22.0.3 [Zip | tar.gz] de downloads de Keycloak.
+#  saida:
+        
+        
 
-  2 - Coloque o arquivo em um diretório de sua escolha.
 
-  3 - Descompacte o arquivo ZIP usando o utilitário de descompactação apropriado, como jar, tar ou unzip.
+  
 
 ## Iniciando o servidor Keycloak
 
