@@ -156,9 +156,9 @@ Cada serviço com as suas configuraçoes, portas, redes ...<br>
   <img src="https://github.com/EduardoNofre/keycloack/blob/master/dockerps.png" alt="Sublime's custom image"/>  
 </p>
         
-
- ## Criação da conta de administrador no keycloak
-
+<h1 align="center">
+Criação da conta de administrador no keycloak
+</h1>
   1 - O usuario administrador console foi criado em seu arquivo 'docker-compose.yml'<br> 
      - usuario: admin <br>
      - senha: admin <br>
@@ -171,18 +171,21 @@ Cada serviço com as suas configuraçoes, portas, redes ...<br>
   
   ![ciar](criarUsua.PNG)  
  
-  
-   ## Criar um realm<br>
+
+<h1 align="center">
+Criar um realm
+</h1>
    
-   O que é o realm?<br>
-   R: O **realm** e como se fosse uma work space ou area de trabalho.<br>
-    - O **realm master** nunca deve ser usado pois o mesmo e para gerenciamnto do keycloack.
-    
-   Pré-requisitos:   
-     Keycloak está instalado.
-      - Você tem a conta de administrador inicial para o console de administração.
-     
-  1 - Vá para o endereço  http://localhost:8080/auth/ e faça login no console de administração do Keycloak usando a conta de administrador.
+  ## O que é o realm?<br>
+   R: O **realm** e como se fosse uma work space um agrupamento de recursos.<br>
+   recursos:<br>
+        usuarios.<br>
+        Roles.<br>
+        Grupos.<br>
+        Regras.<br>
+
+         
+  1 - Vá para o endereço  http://localhost:8080/auth/.
 
   2 - Por default a master ja vem criada.No menu Master, clique em Add Realm. Quando você está conectado ao domínio master, este menu lista todos os outros reinos.
    
@@ -192,44 +195,56 @@ Cada serviço com as suas configuraçoes, portas, redes ...<br>
    
   5 - clique no botão add realm.    
    
-  6 - no campo name iremos colocar o nome "Demo" Como mostra a imagem abaixo.
-      Observação: Este nome é muito importante pois este nome estará na sua url que servirar para gerar o token.
-  ![Alt text](https://www.keycloak.org/docs/latest/getting_started/keycloak-images/add-demo-realm.png "add realm")
+  6 - no campo name iremos colocar o nome "sistema_realms" Como mostra a imagem abaixo.
     
   7 - Após a definição do nome do seu realm clique no botão create.E pronto!
   
-  8 - será exibida a seguinte tela.
-  
-  ![Alt text](https://www.keycloak.org/docs/latest/getting_started/keycloak-images/demo-realm.png "create realm")
 
-  ## Criar o usuario.
+  <h1 align="center">
+    Criar o usuario.
+  </h1>
   
-  1 - No realm demo, você cria um novo usuário e uma senha temporária para esse novo usuário.
+  1 - No realm "sistema_realms", você cria um novo usuário.
   
-  2 - No menu, clique em Usuários para abrir a página da lista de usuários.
+  2 - No menu, clique em usuários para abrir a página da lista de usuários.
     
   3 - No lado direito da lista de usuários vazia, clique em Adicionar usuário para abrir a página Adicionar usuário.
     
-  4 - Insira um nome no campo Nome de usuário. Este é o único campo obrigatório!
+  4 - Insira um nome no campo nome de usuário e um email no campo Email e clique em salvar.<br>
+        nome usuario: eduardo1<br>
+        email: eduardo1@email.com<br>
+        senha: 123123<br>
+              
  
-  ![Alt text](https://www.keycloak.org/docs/latest/getting_started/keycloak-images/add-user.png "Add user")
-   
-  5 - Mude o botão E-mail verificado para Ativado e clique em Salvar. Coloque o nome que desejar.
-       Vamos usar o nome abaixo:
-       
-  ![Alt text](https://www.keycloak.org/docs/latest/getting_started/keycloak-images/add-user.png "Add user")
- 
-  6 - Clique na guia Credenciais para definir uma senha temporária para o novo usuário.
+  5 - Clique na guia Credenciais para definir uma senha para o novo usuário.
   
   7 - Digite uma nova senha e confirme-a.
   
   8 - Clique em Definir senha para definir a senha do usuário como a nova que você especificou.
-  
-  ![Alt text](https://www.keycloak.org/docs/latest/getting_started/keycloak-images/user-credentials.png "Add user")
-    
-  
- ## Adicionar um cliente:
+
+
+  <h1 align="center">
+    Criar um grupo
+  </h1>
+
+ 1 - Vá em groups.
  
+ 2 - Clique no botão 'create group'.
+ 
+ 3 - Defina um nome para o grupo no caso 'Administrador'.
+ 
+ 4 - URL root: nome do host do aplicativo
+
+ 5 - Vá novamente na opção usuarios e selecione o usuario 'eduardo1' selecione a 'aba Groups'.
+
+ 6 - Selecione o groups que você acabou de criar no caso  'Administrador' será feita associação do usuario 'eduardo1' ao grupo 'Administrador' client em join.
+
+ 7 validar volte para a opçoa 'Groups' selecione o grupo  'Administrador' vá na aba menbers la estará o usuario 'eduardo1' associado ao grupo.
+      
+  <h1 align="center">
+    Adicionar um Client
+  </h1>
+
  1 - É simples adicionar um cliente, o mesmo processo funciona para qualquer tipo de aplicação.
  
  2 - ID do cliente: você pode fornecer qualquer nome adequado para seu aplicativo.
