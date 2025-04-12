@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-  Docker Compose + keycloack   
+  Docker Compose + keycloack + Postgrees  
 </h1>
 
 <h1 align="center">
