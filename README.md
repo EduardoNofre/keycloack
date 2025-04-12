@@ -83,8 +83,8 @@ ter o banco de dados postgrees instalado em seu computador.
   Arquivo docker-compose.yml.
 </h1>
 
-##  Arquivo docker-compose.yml
-# 1 - Vamos criar o arquivo 'docker-compose.yml' como no exemplo abaixo.
+#  Arquivo docker-compose.yml
+## 1 - Vamos criar o arquivo 'docker-compose.yml' como no exemplo abaixo.
 
                   services:
                     postgres:
@@ -135,8 +135,8 @@ Cada serviço com as suas configuraçoes, portas, redes ... e assim por diante<b
   Arquivo init-schema.sql.
 </h1>
 
-##  Arquivo  'init-schema.sql'
-# 2 - Vamos criar o arquivo o 'init-schema.sql' como no exemplo abaixo.
+#  Arquivo  'init-schema.sql'
+## 2 - Vamos criar o arquivo o 'init-schema.sql' como no exemplo abaixo.
 
               DO $$
                 BEGIN
