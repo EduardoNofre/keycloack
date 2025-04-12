@@ -134,6 +134,20 @@ Cada serviço com as suas configuraçoes, portas, redes ...<br>
 
 
 
+<h1 align="center">
+  Executando o arquivo 'docker-compose.yml' 
+</h1>
+
+  1 - Va ate o diretorio onde se encontra o arquivo  'docker-compose.yml' via promtp de comando.
+
+  2 - No diretorio onde esta o arquivo  execute o comando docker-compose up -d.
+
+  3 - Apos a execução do comando isso pode levar alguns minutos.
+
+  saida:
+
+
+
 ## Para este exemplo iremos utilizar o keycloak 22.0.3 no sistema operacional Windows
 
   1 - Baixe keycloak-22.0.3 [Zip | tar.gz] de downloads de Keycloak.
