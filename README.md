@@ -130,7 +130,7 @@ Compose é uma ferramenta para gerenciar múltiplos contêineres.<br>
 No exemplo acima 'docker-compose.yml' podemos observar dois serviços são eles.<br>
         - postgres<br>
         - keycloak<br>
-Cada serviço com as suas configuraçoes, portas, redes ...<br>
+Cada serviço com as suas configuraçoes, portas, redes ... e assim por diante<br>
           
 <h1 align="center">
   Arquivo init-schema.sql.
