@@ -278,9 +278,8 @@ Criar um realm
    - 6.2 - Campo **Root url** ${authBaseUrl}<br>
       - 6.3 - Campo **Home url** <br>
         - 6.3.1 - Observação: <br>
-          **Home url /realms/SEU-REALM/account/**<br>
-          Exemplo: <br>
-          **/realms/**SEU-REALM**/account/** realm que criamos logo no inicio.<br>
+          Padrão -> **Home url /realms/SEU-REALM/account/** <br>
+          Exemplo como fica -> **/realms/**SEU-REALM**/account/** realm que criamos logo no inicio.<br>
                    
                 
 
