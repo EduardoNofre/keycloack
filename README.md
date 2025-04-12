@@ -12,7 +12,6 @@
 O Docker Compose é uma ferramenta que permite definir e gerir aplicações Docker que usam vários contêineres. Ele facilita a execução de serviços interconectados, como bancos de dados, APIs e front-end.<br>
 
 ## O que é o keycloack?
-
 Keycloak é uma solução de gerenciamento de acesso e identidade de código aberto que visa principalmente aplicativos e serviços. Os usuários podem autenticar com o Keycloak em vez de aplicativos individuais. Assim, as aplicações não precisam lidar com formulários de login, autenticando e armazenando usuários.
 
 ## Para este exemplo iremos utilizar o keycloak 22.0.3 no sistema operacional Windows
