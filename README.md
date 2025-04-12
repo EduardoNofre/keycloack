@@ -6,10 +6,10 @@
   <img src="https://github.com/EduardoNofre/keycloack/blob/master/dockerCompose.jpg" alt="Sublime's custom image"/>  
 </p>
 
-<h1 align="center">
-  Sumario  
-</h1>
 <p align="center">
+  Sumario  
+</p>
+<p align="left">
 • <a href="#---docker-compose-">Docker Compose</a><br>
 • <a href="#ide-eclipse">keycloack</a><br>
 • <a href="#--requisito-mínimo-antes-de-começar"> Vamos testar o usuario criado</a><br> 				
