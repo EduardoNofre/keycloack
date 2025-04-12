@@ -42,14 +42,14 @@ Compatível com protocolos de autenticação como OAuth 2.0, OpenID Connect e SA
 
 ## 1 - Step;
 Ter o docker desktop instalado na maquina.
-Para instalar é facil é só ir na pagina do docker fazer download de acordo com seu S.O e instalar.
+Para instalar é facil é só ir na pagina do docker fazer download de acordo com seu **S.O** e instalar.
 
 ## 2 - Step. 
 Observação.<br>
-Para executar o seu projeto, o docker desktop deve esta sendo execuatdo em sua maquina. Caso contrario vai da erro.
+Para executar o seu projeto, **o docker desktop deve esta sendo execuatdo** em sua maquina. Caso contrario vai da erro.
 
 ## 3 - Step.
-Ao executar o seu projeto pela primiera vez vai demorar um pouco pois o docker irá fazer o pull das imagens para a sua maquina.
+Ao executar o seu projeto pela primiera vez **vai demorar um pouco pois o docker irá fazer o pull das imagens** para a sua maquina.
 
 ## 4 - Step.
 ter o banco de dados postgrees instalado em seu computador.
@@ -124,16 +124,16 @@ Cada serviço com as suas configuraçoes, portas, redes ...<br>
                 $$;
 
 # 2.1 - O Arquivo compose 'init-schema.sql'.
-  SQL é um script de criação de schema_name e nome da schema_name.<br>
-  O Arquivo compose 'docker-compose.yml' faz a chamada deste sql apos a instalação do postgrees.<br>
+  **SQL** é um script de criação de schema_name e nome da schema_name.<br>
+  O Arquivo compose **'docker-compose.yml'** faz a chamada deste sql apos a instalação do postgrees.<br>
 
 <h1 align="center">
   Executando o arquivo 'docker-compose.yml' 
 </h1>
 
-  1 - Va ate o diretorio onde se encontra o arquivo  'docker-compose.yml' via promtp de comando.
+  1 - Va ate o diretorio onde se encontra o arquivo  **'docker-compose.yml'** via promtp de comando.
 
-  2 - No diretorio onde esta o arquivo  execute o comando docker-compose up -d.
+  2 - No diretorio onde esta o arquivo  execute o comando **docker-compose up -d**.
 
   3 - Apos a execução do comando isso pode levar alguns minutos.
 
@@ -159,7 +159,8 @@ Cada serviço com as suas configuraçoes, portas, redes ...<br>
 <h1 align="center">
 Criação da conta de administrador no keycloak
 </h1>
-  1 - O usuario administrador console foi criado em seu arquivo 'docker-compose.yml'<br> 
+
+  1 - O usuario administrador console foi criado em seu arquivo **'docker-compose.yml'** <br> 
      - usuario: admin <br>
      - senha: admin <br>
 
@@ -187,33 +188,33 @@ Criar um realm
          
   1 - Vá para o endereço  http://localhost:8080/auth/.
 
-  2 - Por default a master ja vem criada.No menu Master, clique em Add Realm. Quando você está conectado ao domínio master, este menu lista todos os outros reinos.
+  2 - Por default a master ja vem criada.No menu Master, clique em **Add Realm**. Quando você está conectado ao domínio master, este menu lista todos os outros reinos.
    
-  3 - Assim que você se logar na aplicação do lado esquerdo superior você verá o nome Master.
+  3 - Assim que você se logar na aplicação do lado esquerdo superior você verá o nome **Master**.
    
-  4 - Ao passar o curso do mouse por cima do nome master será exibido um botão com a opção de adicionar um realm.
+  4 - Ao passar o curso do mouse por cima do nome master será exibido um botão com a opção de **Add um realm**.
    
-  5 - clique no botão add realm.    
+  5 - clique no botão **add realm**.    
    
-  6 - no campo name iremos colocar o nome "sistema_realms" Como mostra a imagem abaixo.
+  6 - No campo name iremos colocar o nome **"sistema_realms"**.
     
-  7 - Após a definição do nome do seu realm clique no botão create.E pronto!
+  7 - Após a definição do nome do seu realm clique no botão **create**.E pronto!
   
 
   <h1 align="center">
     Criar o usuario.
   </h1>
   
-  1 - No realm "sistema_realms", você cria um novo usuário.
+  1 - No realm **"sistema_realms"**, você cria um novo usuário.
   
   2 - No menu, clique em usuários para abrir a página da lista de usuários.
     
-  3 - No lado direito da lista de usuários vazia, clique em Adicionar usuário para abrir a página Adicionar usuário.
+  3 - No lado direito da lista de usuários vazia, clique em **Adicionar usuário** para abrir a página Adicionar usuário.
     
   4 - Insira um nome no campo nome de usuário e um email no campo Email e clique em salvar.<br>
-        nome usuario: eduardo1<br>
-        email: eduardo1@email.com<br>
-        senha: 123123<br>
+        **nome usuario: eduardo1**<br>
+        **email: eduardo1@email**com<br>
+        **senha: 123123**<br>
               
  
   5 - Clique na guia Credenciais para definir uma senha para o novo usuário.
@@ -227,31 +228,63 @@ Criar um realm
     Criar um grupo
   </h1>
 
- 1 - Vá em groups.
+ 1 - Vá em **groups**.
  
- 2 - Clique no botão 'create group'.
+ 2 - Clique no botão **'create group'**.
  
- 3 - Defina um nome para o grupo no caso 'Administrador'.
+ 3 - Defina um nome para o grupo no caso **'Administrador'**.
  
  4 - URL root: nome do host do aplicativo
 
- 5 - Vá novamente na opção usuarios e selecione o usuario 'eduardo1' selecione a 'aba Groups'.
+ 5 - Vá novamente na opção **usuarios** e selecione o usuario **'eduardo1'** selecione a **'aba Groups'**.
 
- 6 - Selecione o groups que você acabou de criar no caso  'Administrador' será feita associação do usuario 'eduardo1' ao grupo 'Administrador' client em join.
+ 6 - Selecione o **Groups** que você acabou de criar no caso  **'Administrador'** será feita associação do usuario **'eduardo1'** ao grupo **'Administrador'** client em join.
 
- 7 validar volte para a opçoa 'Groups' selecione o grupo  'Administrador' vá na aba menbers la estará o usuario 'eduardo1' associado ao grupo.
+ 7  - Validar volte para a opção **'Groups'** selecione o grupo  **'Administrador'** vá na aba **Menbers** la estará o usuario **'eduardo1'** associado ao grupo **'Administrador'**.
+
+  <h1 align="center">
+    Criar as roles
+  </h1>
+
+ 1 - Vá em **realm roles**.
+ 
+ 2 - Clique no botão **'create role'**.
+ 
+ 3 - Defina um nome para a role no caso **'Administrador_role'**.
+ 
+ 4 - Coloque na descrição o que essa role permite fazer. 
+ Exemplo: **'acesso full na aplicação' e clique no botão save**.
+
+ 5 - Volte para a opção **'Groups'** selecione a aba **'Role mapping'** e faça a **associação com a role que você acabou** de criar no caso **'Administrador_role'**.
+
+ 6 - Selecione o groups que você acabou de criar no caso  **'Administrador'** será feita associação do usuario **'eduardo1'** ao grupo **'Administrador'** client em join.
       
   <h1 align="center">
     Adicionar um Client
   </h1>
 
- 1 - É simples adicionar um cliente, o mesmo processo funciona para qualquer tipo de aplicação.
+ 1 - Vá em **Clients**.
  
- 2 - ID do cliente: você pode fornecer qualquer nome adequado para seu aplicativo.
+ 2 - Clique no botão **Create client**. defina um nome **client_sistema**.
  
- 3 - Vamos usar o protocolo: ‘OpenID-Connect
+ 3 - Vamos usar o protocolo: **OpenID-Connect**
  
- 4 - URL root: nome do host do aplicativo
+ 4 - Clique no **botão next**.
+
+ 5 - Ative a opçao **Client authentication** e **Authorization** e deixe marcado o check box **Standard flow** e **Direct access grants**.
+
+ 6 - Volte para a opçao **Clients** e clique na **settings**.
+       6.1 - Campo **Name** defina o valor ${client_account}.
+       6.2 - Campo **Root url** ${authBaseUrl}
+       6.3 - Campo **Home url** 
+           6.3.1 - Observação: **Home url /realms/SEU-REALM/account/**
+                   Exemplo: **/realms/**SEU-REALM**/account/** realm que criamos logo no inicio.
+                   
+                
+
+
+
+ 
  
  Obs: Nos campos: Valid Redirect URIs, Admin URL e Web Origins neste campo será colocado a url da sua aplicação. e não a url do keycloack. 
  
