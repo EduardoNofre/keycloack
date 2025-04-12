@@ -320,7 +320,7 @@ Criar um realm
   <img src="https://github.com/EduardoNofre/keycloack/blob/master/teste.png" alt="Sublime's custom image"/>  
 </p>
 
-5 - clique em **Personal info** e digite:
+5 - clique em **Personal info** e digite:<br>
         **usuario: eduardo1**<br>
         **senha: 123123**<br>
 Se tudo der certo você sera direcionado para a tela principal do usuario.<br>
