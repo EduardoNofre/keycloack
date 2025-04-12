@@ -159,24 +159,18 @@ Cada serviço com as suas configuraçoes, portas, redes ...<br>
 
  ## Criação da conta de administrador no keycloak
 
-  1 - O usuario administrador foi criado em seu arquivo 'docker-compose.yml' usuario: admin senha admin.
+  1 - O usuario administrador console foi criado em seu arquivo 'docker-compose.yml'<br> 
+     - usuario: admin <br>
+     - senha: admin <br>
 
   2 - Abra http://localhost:8080/auth
     
   3 - A página de boas-vindas é aberta, confirmando que o servidor está funcionando.Página de boas-vindas
   
-  5 - Digite usuario e senha  que esta no 'docker-compose.yml'.
+  5 - E faça login no console de administração do Keycloak usando a conta de console administrador..
   
   ![ciar](criarUsua.PNG)  
-  
-  ## Fazer login no console de administração
-  
-  1 - Clique no link Administration Console na página de Boas-vindas ou vá diretamente para http://localhost:8080/auth/admin/ (o URL do console).
-   
-  2 - Digite o nome de usuário e a senha que você criou na página de boas-vindas para abrir o console de administração.Tela de login do Admin Console.
-   
-  3 - A tela inicial do console de administração é exibida.Admin console.
-  ![primiera](primiera.PNG)  
+ 
   
    ## Criar um realm<br>
    
