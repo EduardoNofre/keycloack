@@ -129,7 +129,7 @@ Cada serviço com as suas configuraçoes, portas, redes ...<br>
                 $$;
 
 # 2.1 - O Arquivo compose 'init-schema.sql'.
-  sql é um script de criação de schema_name e nome da schema_name.<br>
+  SQL é um script de criação de schema_name e nome da schema_name.<br>
   O Arquivo compose 'docker-compose.yml' faz a chamada deste sql apos a instalação do postgrees.<br>
 
 
