@@ -6,9 +6,9 @@
   <img src="https://github.com/EduardoNofre/keycloack/blob/master/dockerCompose.jpg" alt="Sublime's custom image"/>  
 </p>
 
-<p align="center">
+<h1 align="left">
   Sumario  
-</p>
+</h1>
 <p align="left">
 • <a href="#---docker-compose-">Docker Compose</a><br>
 • <a href="#ide-eclipse">keycloack</a><br>
