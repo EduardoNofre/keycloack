@@ -51,7 +51,7 @@ Console de gerenciamento de contas, console admin para gerenciamento central de 
 Compatível com protocolos de autenticação como OAuth 2.0, OpenID Connect e SAML.
 
 <h1 align="center">
-  Requisito mínimo para antes de começar!.
+  Requisito mínimo antes de começar!.
 </h1>
 
 ## 1 - Requisito;
@@ -127,7 +127,7 @@ Cada serviço com as suas configuraçoes, portas, redes ...<br>
 # 2 - Vamos criar o arquivoe o 'init-schema.sql' como no exemplo abaixo.
 
 <h1 align="center">
-  Arquivo init-schema.sqll.
+  Arquivo init-schema.sql.
 </h1
 ##  Arquivo  'init-schema.sql'
 
@@ -194,7 +194,7 @@ Criação da conta de administrador no keycloak
  
 
 <h1 align="center">
-Criar um realm
+Criando um realm
 </h1>
    
   ## O que é o realm?<br>
@@ -222,7 +222,7 @@ Criar um realm
   
 
   <h1 align="center">
-    Criar o usuario.
+    Criando o usuario.
   </h1>
   
   1 - No realm **"REALM_SISTEMA"**, você cria um novo usuário.
@@ -245,7 +245,7 @@ Criar um realm
 
 
   <h1 align="center">
-    Criar um grupo
+    Criando um grupo
   </h1>
 
  1 - Vá em **groups**.
@@ -263,7 +263,7 @@ Criar um realm
  7  - Validar volte para a opção **'Groups'** selecione o grupo  **'Administrador'** vá na aba **Menbers** la estará o usuario **'eduardo1'** associado ao grupo **'Administrador'**.
 
   <h1 align="center">
-    Criar as roles
+    Criando as roles
   </h1>
 
  1 - Vá em **realm roles**.
@@ -280,7 +280,7 @@ Criar um realm
  6 - Selecione o groups que você acabou de criar no caso  **'Administrador'** será feita associação do usuario **'eduardo1'** ao grupo **'Administrador'** client em join.
       
   <h1 align="center">
-    Adicionar um Client
+    Adicionando um Client
   </h1>
 
  1 - Vá em **Clients**.
@@ -307,7 +307,7 @@ Criar um realm
                 
 
   <h1 align="center">
-    Adicionar um Client scopes
+    Adicionando um Client scopes
   </h1>
 
  1 - Vá em **Client scopes**.
@@ -323,7 +323,7 @@ Criar um realm
  6 - Volte para a opção **Client scopes** e Clique na aba **Mappers** selecione **Client roles**  na opçao **Client ID** selecione o client que você criou no nosso caso a **client_sistema**.
 
   <h1 align="center">
-    Vamos testar o usuario 'eduardo1'
+    Vamos testar o usuario criado.
   </h1>
 
   1 - Vá em **Client**.
