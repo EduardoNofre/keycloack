@@ -12,9 +12,18 @@
 <p align="center">
    <a href="#---docker-compose-">Docker Compose</a> •
    <a href="#ide-eclipse">keycloack</a> •
-   <a href="#configurar-sonar-no-eclipse">Requisito mínimo</a> •
-   <a href="#configurar-jacoco">Jacoco</a> •
-   <a href="#plugin-sonarlint">sonarlint</a> 
+• <a href="#--requisito-mínimo-antes-de-começar"> Vamos testar o usuario criado</a><br> 				
+• <a href="#--arquivo-docker-composeyml"> Adicionando um Client scopes</a><br>  					
+• <a href="#2---vamos-criar-o-arquivoe-o-init-schemasql-como-no-exemplo-abaixo"> Adicionando um Client</a><br>  							
+• <a href="#--executando-o-arquivo-docker-composeyml-"> Criando as roles</a><br>  								
+• <a href="#criação-da-conta-de-administrador-no-keycloak"> Criando um grupo</a><br>  								
+• <a href="#criando-um-realm"> Criando o usuario</a><br> 						
+• <a href="#----criando-o-usuario--"> Criando um realm</a><br>  								
+• <a href="#----criando-um-grupo--"> Criação da conta de administrador no keycloak</a><br>   	
+• <a href="#----criando-as-roles--"> Executando o arquivo 'docker-compose.yml'</a><br>  		
+• <a href="#----adicionando-um-client--"> Arquivo init-schema.sql</a><br>						
+• <a href="#----adicionando-um-client-scopes--"> Arquivo docker-compose.yml</a><br>					
+• <a href="#----vamos-testar-o-usuario-criado--"> Requisito mínimo antes de começar!</a><br>	
 </p>
 
 
