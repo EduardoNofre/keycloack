@@ -196,7 +196,7 @@ Criar um realm
    
   5 - clique no botão **add realm**.    
    
-  6 - No campo name iremos colocar o nome **"sistema_realms"**.
+  6 - No campo name iremos colocar o nome **"REALM_SISTEMA"**.
     
   7 - Após a definição do nome do seu realm clique no botão **create**.E pronto!
   
@@ -205,7 +205,7 @@ Criar um realm
     Criar o usuario.
   </h1>
   
-  1 - No realm **"sistema_realms"**, você cria um novo usuário.
+  1 - No realm **"REALM_SISTEMA"**, você cria um novo usuário.
   
   2 - No menu, clique em usuários para abrir a página da lista de usuários.
     
@@ -276,11 +276,14 @@ Criar um realm
  6 - Volte para a opçao **Clients** e clique na **settings**.<br>
    - 6.1 - Campo **Name** defina o valor ${client_account}.<br>
    - 6.2 - Campo **Root url** ${authBaseUrl}<br>
-      - 6.3 - Campo **Home url** <br>
+   - 6.3 - Campo **Home url** <br>
         - 6.3.1 - Observação: <br>
           Padrão -> **Home url /realms/SEU-REALM/account/** <br>
-          Exemplo como fica -> **/realms/**SEU-REALM**/account/** realm que criamos logo no inicio.<br>
-                   
+          Exemplo como fica -> **/realms/REALM_SISTEMA/account/** realm que criamos logo no inicio **REALM_SISTEMA**.<br>
+    - 6.4 - Campo **Valid redirect URIs** **/realms/REALM_SISTEMA/account/*.**
+        - 6.4.1 - Observação: <br>
+          Padrão -> **Valid redirect URIs /realms/SEU-REALM/account/*.** <br>
+          Exemplo como fica -> **/realms/REALM_SISTEMA/account/*.** realm que criamos logo no inicio **REALM_SISTEMA**.<br>           
                 
 
 
