@@ -18,12 +18,12 @@
 • <a href="#--executando-o-arquivo-docker-composeyml-">Executando o arquivo 'docker-compose.yml'</a><br>  								
 • <a href="#criação-da-conta-de-administrador-no-keycloak">Criação da conta de administrador no keycloak</a><br>  	
 • <a href="#criando-um-realm">Criando um realm</a><br> 						
-• <a href="#----criando-o-usuario--">Criando o usuario</a><br>  								
+• <a href="#----criando-o-usuário----">Criando o usuario</a><br>  								
 • <a href="#----criando-um-grupo--">Criando um grupo</a><br>   	
 • <a href="#----criando-as-roles--">Criando as roles</a><br>  		
 • <a href="#----adicionando-um-client--">Adicionando um Client</a><br>						
 • <a href="#----adicionando-um-client-scopes--">Adicionando um Client scopes</a><br>					
-• <a href="#----vamos-testar-o-usuario-criado--">Vamos testar o usuario criado!</a><br>	
+• <a href="#----vamos-testar-o-usuário-criado--">Vamos testar o usuario criado!</a><br>	
 </p>
 
 
