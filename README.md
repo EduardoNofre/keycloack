@@ -38,9 +38,6 @@ Console de gerenciamento de contas, console admin para gerenciamento central de 
 ## Suporte de protocolos?
 Compatível com protocolos de autenticação como OAuth 2.0, OpenID Connect e SAML.
 
-
-
-
 # Requisito mínimo para antes de começar!.
 
 ## 1 - Step;
@@ -131,8 +128,8 @@ Ao executar o seu projeto pela primiera vez vai demorar um pouco pois o docker i
                 $$;
 
 # 2.1 - O Arquivo compose 'init-schema.sql'.
-  sql é um script de criação de schema_name e nome da schema_name.
-  O Arquivo compose 'docker-compose.yml' faz a chamada deste sql apos a instalação do postgrees.
+  sql é um script de criação de schema_name e nome da schema_name.<br>
+  O Arquivo compose 'docker-compose.yml' faz a chamada deste sql apos a instalação do postgrees.<br>
 
 
 
