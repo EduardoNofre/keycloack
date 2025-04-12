@@ -11,8 +11,8 @@
 </h1>
 <p align="center">
    <a href="#---docker-compose-">Docker Compose</a> •
-   <a href="#ide-eclipse">Ide Eclipse</a> •
-   <a href="#configurar-sonar-no-eclipse">Sonar</a> •
+   <a href="#ide-eclipse">keycloack</a> •
+   <a href="#configurar-sonar-no-eclipse">Requisito mínimo</a> •
    <a href="#configurar-jacoco">Jacoco</a> •
    <a href="#plugin-sonarlint">sonarlint</a> 
 </p>
@@ -50,28 +50,32 @@ Console de gerenciamento de contas, console admin para gerenciamento central de 
 ## Suporte de protocolos?
 Compatível com protocolos de autenticação como OAuth 2.0, OpenID Connect e SAML.
 
-# Requisito mínimo para antes de começar!.
+<h1 align="center">
+  Requisito mínimo para antes de começar!.
+</h1>
 
-## 1 - Step;
+## 1 - Requisito;
 Ter o docker desktop instalado na maquina.
 Para instalar é facil é só ir na pagina do docker fazer download de acordo com seu **S.O** e instalar.
 
-## 2 - Step. 
+## 2 - Requisito. 
 Observação.<br>
 Para executar o seu projeto, **o docker desktop deve esta sendo execuatdo** em sua maquina. Caso contrario vai da erro.
 
-## 3 - Step.
+## 3 - Requisito.
 Ao executar o seu projeto pela primiera vez **vai demorar um pouco pois o docker irá fazer o pull das imagens** para a sua maquina.
 
-## 4 - Step.
+## 4 - Requisito.
 ter o banco de dados postgrees instalado em seu computador.
 
-
-<h1 align="center">
-  Requisito mínimo atendido.
-</h1>
+# Requisito mínimo atendido.
 
 # 1 - Vamos criar o arquivo 'docker-compose.yml' como no exemplo abaixo.
+
+<h1 align="center">
+  Arquivo docker-compose.yml.
+</h1
+  
 ##  Arquivo docker-compose.yml
 
                   services:
@@ -121,6 +125,10 @@ Cada serviço com as suas configuraçoes, portas, redes ...<br>
           
 
 # 2 - Vamos criar o arquivoe o 'init-schema.sql' como no exemplo abaixo.
+
+<h1 align="center">
+  Arquivo init-schema.sqll.
+</h1
 ##  Arquivo  'init-schema.sql'
 
               DO $$
