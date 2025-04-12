@@ -280,7 +280,7 @@ Criar um realm
         - 6.3.1 - Observação: <br>
           Padrão -> **Home url /realms/SEU-REALM/account/** <br>
           Exemplo como fica -> **/realms/REALM_SISTEMA/account/** realm que criamos logo no inicio **REALM_SISTEMA**.<br>
-    - 6.4 - Campo **Valid redirect URIs** **/realms/REALM_SISTEMA/account/*.**
+  - 6.4 - Campo **Valid redirect URIs** **/realms/REALM_SISTEMA/account/*.**
         - 6.4.1 - Observação: <br>
           Padrão -> **Valid redirect URIs /realms/SEU-REALM/account/*.** <br>
           Exemplo como fica -> **/realms/REALM_SISTEMA/account/*.** realm que criamos logo no inicio **REALM_SISTEMA**.<br>           
