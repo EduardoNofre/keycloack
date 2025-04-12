@@ -316,6 +316,14 @@ Criar um realm
 
  Será exibida a seguinte tela.
 
+ <p align="center">
+  <img src="https://github.com/EduardoNofre/keycloack/blob/master/teste.png" alt="Sublime's custom image"/>  
+</p>
+
+5 - clique em **Personal info** e digite:
+        **usuario: eduardo1**<br>
+        **senha: 123123**<br>
+Se tudo der certo você sera direcionado para a tela principal do usuario.<br>
    
 
 # Fim
