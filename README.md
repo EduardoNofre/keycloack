@@ -150,8 +150,11 @@ Cada serviço com as suas configuraçoes, portas, redes ...<br>
 
  5 - Verificando se as imagens estão rodando execute o comando 'docker ps':
 
-#  saida:
-        
+  #  saida:
+
+     <p align="center">
+        <img src="https://github.com/EduardoNofre/keycloack/blob/master/dockerps.png" alt="Sublime's custom image"/>  
+      </p>
         
 
 
