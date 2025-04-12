@@ -17,7 +17,6 @@
 • <a href="#--arquivo-init-schemasql">Arquivo init-schema.sql</a><br>  				
 • <a href="#--executando-o-arquivo-docker-composeyml-">Executando o arquivo 'docker-compose.yml'</a><br>  								
 • <a href="#criação-da-conta-de-administrador-no-keycloak">Criação da conta de administrador no keycloak</a><br>  	
-
 • <a href="#criando-um-realm">Criando um realm</a><br> 						
 • <a href="#----criando-o-usuario--">Criando o usuario</a><br>  								
 • <a href="#----criando-um-grupo--">Criando um grupo</a><br>   	
