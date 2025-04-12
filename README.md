@@ -110,7 +110,7 @@ Ao executar o seu projeto pela primiera vez vai demorar um pouco pois o docker i
 
   - arquivo 2 : init-schema.sql
 
-                    DO $$
+              DO $$
                 BEGIN
                     IF NOT EXISTS(
                         SELECT schema_name
