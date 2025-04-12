@@ -157,34 +157,13 @@ Cada serviço com as suas configuraçoes, portas, redes ...<br>
 </p>
         
 
-
-  
-
-## Iniciando o servidor Keycloak
-
-  1 - Você inicia o servidor no sistema em que o instalou.
-
-  2 - Vá para o diretório bin da distribuição do servidor.
-
-  3 - Execute  o cmando  **C:\keycloack-localhost\keycloak-22.0.3\bin>kc.bat start-dev**
-
-  4 - Apos a execução do comando deve o resultado dev ser algo semelhante a resultado abaixo.
-
-  ![console](console.PNG)
-
-  5 - Agora abra o seu browser e digite localhost:8080 e a seguinte tela sera exibida.
-
-  ![ciar](criarUsua.PNG)
-  
  ## Criação da conta de administrador no keycloak
 
-  1 - Antes de poder usar o Keycloak, você precisa criar uma conta de administrador que usará para fazer login no console de administração do Keycloak.
+  1 - O usuario administrador foi criado em seu arquivo 'docker-compose.yml' usuario: admin senha admin.
 
-  2 - Você não viu nenhum erro ao iniciar o servidor Keycloak. Por default sobe na porta localhost:8080.
-
-  3 - Abra http://localhost:8080/auth em seu navegador.
+  2 - Abra http://localhost:8080/auth
     
-  4 - A página de boas-vindas é aberta, confirmando que o servidor está funcionando.Página de boas-vindas
+  3 - A página de boas-vindas é aberta, confirmando que o servidor está funcionando.Página de boas-vindas
   
   5 - Digite um nome de usuário e senha para criar um usuário admin inicial.
   
