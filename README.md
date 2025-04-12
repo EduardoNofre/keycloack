@@ -131,14 +131,13 @@ No exemplo acima 'docker-compose.yml' podemos observar dois serviços são eles.
         - postgres<br>
         - keycloak<br>
 Cada serviço com as suas configuraçoes, portas, redes ... e assim por diante<br>
-          
+
 <h1 align="center">
   Arquivo init-schema.sql.
 </h1
 
 
 # 2 - Vamos criar o arquivo o 'init-schema.sql' como no exemplo abaixo.
-
 ##  Arquivo  'init-schema.sql'
 
               DO $$
