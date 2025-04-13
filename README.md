@@ -352,7 +352,7 @@ Criando um realm
 Se tudo der certo você sera direcionado para a tela principal do usuário  .<br>
 
   <h1 align="center">
-    Definir regras para passsowrds.
+    Definir regras para as senhas
   </h1>
 
   1 - Vá em **Authentication**.
