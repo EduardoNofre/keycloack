@@ -264,7 +264,7 @@ Criando um realm
 
  5 - Vá novamente na opção **usuário  s** e selecione o usuário   **'eduardo1'** selecione a **'aba Groups'**.
 
- 6 - Selecione o **Groups** que você acabou de criar no caso  **'Administrador'** será feita associação do usuário   **'eduardo1'** ao grupo **'Administrador'** client em join.
+ 6 - Selecione o **Groups** que você acabou de criar no caso  **'Administrador'** será feita **associação**do usuário   **'eduardo1'** ao grupo **'Administrador'** client em join.
 
  7  - Validar volte para a opção **'Groups'** selecione o grupo  **'Administrador'** vá na aba **Menbers** la estará o usuário   **'eduardo1'** associado ao grupo **'Administrador'**.
 
@@ -283,7 +283,7 @@ Criando um realm
 
  5 - Volte para a opção **'Groups'** selecione a aba **'Role mapping'** e faça a **associação com a role que você acabou** de criar no caso **'Administrador_role'**.
 
- 6 - Selecione o groups que você acabou de criar no caso  **'Administrador'** será feita associação do usuário   **'eduardo1'** ao grupo **'Administrador'** client em join.
+ 6 - Selecione o groups que você acabou de criar no caso  **'Administrador'** será feita **associação** do usuário   **'eduardo1'** ao grupo **'Administrador'** client em join.
       
   <h1 align="center">
     Adicionando um Client
