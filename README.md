@@ -272,7 +272,7 @@ Criando um realm
     Criando as roles
   </h1>
 
- 1 - Vá em **realm roles**.
+ 1 - Vá em **Realm roles**.
  
  2 - Clique no botão **'create role'**.
  
