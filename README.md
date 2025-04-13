@@ -301,7 +301,7 @@ Criando um realm
 
  6 - Volte para a opçao **Clients** e clique na **settings**.<br>
    - 6.1 - Campo **Name** defina o valor **${client_account}**.<br>
-   - 6.2 - Campo **Root url** **${authBaseUrl}**<br>
+   - 6.2 - Campo **Root url** defina o valor **${authBaseUrl}**<br>
    - 6.3 - Campo **Home url** <br>
      - 6.3.1 - Observação: <br>
           Padrão -> **Home url /realms/SEU-REALM/account/** <br>
