@@ -1,4 +1,4 @@
-<h1 align="center">
+<h1 align="center"> 
   Docker Compose + keycloack + Postgrees  
 </h1>
 
@@ -242,7 +242,7 @@ Criando um realm
         **nome usuário  : eduardo1**<br>
         **email: eduardo1@email**com<br>              
  
-  5 - Clique na aba **credentials** para definir uma senha para o novo usuário.
+  5 - Clique na ABA**credentials** para definir uma senha para o novo usuário.
           **senha: 123123**<br>
   
   7 - Digite uma nova senha e confirme-a.
@@ -262,11 +262,11 @@ Criando um realm
  
  4 - URL root: nome do host do aplicativo
 
- 5 - Vá novamente na opção **usuário  s** e selecione o usuário   **'eduardo1'** selecione a **'aba Groups'**.
+ 5 - Vá novamente na opção **usuário  s** e selecione o usuário   **'eduardo1'** selecione a **'ABA Groups'**.
 
  6 - Selecione o **Groups** que você acabou de criar no caso  **'Administrador'** será feita **associação**do usuário   **'eduardo1'** ao grupo **'Administrador'** client em join.
 
- 7  - Validar volte para a opção **'Groups'** selecione o grupo  **'Administrador'** vá na aba **Menbers** la estará o usuário   **'eduardo1'** associado ao grupo **'Administrador'**.
+ 7  - Validar volte para a opção **'Groups'** selecione o grupo  **'Administrador'** vá na ABA **Menbers** la estará o usuário   **'eduardo1'** associado ao grupo **'Administrador'**.
 
   <h1 align="center">
     Criando as roles
@@ -281,7 +281,7 @@ Criando um realm
  4 - Coloque na descrição o que essa role permite fazer. 
  Exemplo: **'acesso full na aplicação' e clique no botão save**.
 
- 5 - Volte para a opção **'Groups'** selecione a aba **'Role mapping'** e faça a **associação com a role que você acabou** de criar no caso **'Administrador_role'**.
+ 5 - Volte para a opção **'Groups'** selecione a ABA **'Role mapping'** e faça a **associação com a role que você acabou** de criar no caso **'Administrador_role'**.
 
  6 - Selecione o groups que você acabou de criar no caso  **'Administrador'** será feita **associação** do usuário   **'eduardo1'** ao grupo **'Administrador'** client em join.
       
@@ -299,7 +299,7 @@ Criando um realm
 
  5 - Ative a opçao **Client authentication** e **Authorization** e deixe marcado o check box **Standard flow** e **Direct access grants**.
 
- 6 - Volte para a opçao **Clients** e clique na **settings**.<br>
+ 6 - Volte para a opçao **Clients** e clique na ABA **settings**.<br>
    - 6.1 - Campo **Name** defina o valor **${client_account}**.<br>
    - 6.2 - Campo **Root url** defina o valor **${authBaseUrl}**<br>
    - 6.3 - Campo **Home url** <br>
@@ -320,13 +320,13 @@ Criando um realm
  
  2 - Clique na opção  **Roles**.
  
- 3 - Clique na aba **scopes**.
+ 3 - Clique na ABA **scopes**.
  
  4 - Clique no **botão next**.
 
- 5 - Nesta aba estará todas as roles que você criou no nosso caso **'Administrador_role'** seleciona a sua role e clique no botão **Assign**.
+ 5 - Nesta ABA estará todas as roles que você criou no nosso caso **'Administrador_role'** seleciona a sua role e clique no botão **Assign**.
 
- 6 - Volte para a opção **Client scopes** e Clique na aba **Mappers** selecione **Client roles**  na opçao **Client ID** selecione o client que você criou no nosso caso a **client_sistema**.
+ 6 - Volte para a opção **Client scopes** e Clique na ABA **Mappers** selecione **Client roles**  na opçao **Client ID** selecione o client que você criou no nosso caso a **client_sistema**.
 
   <h1 align="center">
     Vamos testar o usuário   criado.
