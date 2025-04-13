@@ -238,13 +238,12 @@ Criando um realm
     
   3 - No lado direito da lista de usuários vazia, clique em **Adicionar usuário** para abrir a página Adicionar usuário.
     
-  4 - Insira um nome no campo nome de usuário e um email no campo Email e clique em salvar.<br>
+  4 - Insira um **nome no campo** nome de usuário e um email no **campo Email** e clique em salvar.<br>
         **nome usuário  : eduardo1**<br>
-        **email: eduardo1@email**com<br>
-        **senha: 123123**<br>
-              
+        **email: eduardo1@email**com<br>              
  
-  5 - Clique na guia Credenciais para definir uma senha para o novo usuário.
+  5 - Clique na aba **credentials** para definir uma senha para o novo usuário.
+          **senha: 123123**<br>
   
   7 - Digite uma nova senha e confirme-a.
   
