@@ -326,7 +326,7 @@ Criando um realm
 
  5 - Nesta ABA estará todas as roles que você criou no nosso caso só **'Administrador_role'** seleciona a sua role e clique no botão **Assign**.
 
- 6 - Volte para a opção **Client scopes** e Clique na ABA **Mappers** selecione **Client roles**  na opçao **Client ID** selecione o client que você criou no nosso caso a **client_sistema**.
+ 6 - Volte para a **opção Client scopes** e  Clique na **opção Roles**  selecione a **ABA Mappers** na opçao **client roles** no **campo Client ID** selecione o client que você criou **client_sistema**.
 
   <h1 align="center">
     Vamos testar o usuário   criado.
