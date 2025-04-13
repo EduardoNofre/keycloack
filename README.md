@@ -332,7 +332,7 @@ Criando um realm
     Vamos testar o usuário   criado.
   </h1>
 
-  1 - Vá em **Client**.
+ 1 - Vá em **Client**.
  
  2 - Selecione o client que foi criado por nos  **client_sistema** .
  
@@ -350,7 +350,21 @@ Criando um realm
         **usuário  : eduardo1**<br>
         **senha: 123123**<br>
 Se tudo der certo você sera direcionado para a tela principal do usuário  .<br>
-   
+
+  <h1 align="center">
+    Definir regras para passsowrds.
+  </h1>
+
+  1 - Vá em **Authentication**.
+ 
+  2 - Selecione a **ABA Policies** .
+ 
+  3 - Selecione a opção **Password policies**.
+ 
+  4 - Na tela de **Password policies** podemos adicionar varias regras para a senha.
+
+  5 - Depois de definir as regras de email .
+
 
 # Fim
 
