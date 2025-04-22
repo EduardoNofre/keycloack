@@ -348,7 +348,7 @@ Criando um realm
  7 - A role será exibida da seguinte forma exemplo: **nome do client nome da sua role** como mostra o exemplo abaixo.
         
   <p align="center">
-    <img src="" alt="Sublime's custom image"/>  
+    <img src="https://github.com/EduardoNofre/DockerCompose_keycloack_postgrees/blob/master/resource.png" alt="Sublime's custom image"/>  
   </p>
 
 
