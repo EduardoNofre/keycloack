@@ -22,7 +22,8 @@
 • <a href="#----criando-um-grupo--">Criando um grupo</a><br>   	
 • <a href="#----criando-as-roles--">Criando as roles</a><br>  		
 • <a href="#----adicionando-um-client--">Adicionando um Client</a><br>						
-• <a href="#----adicionando-um-client-scopes--">Adicionando um Client scopes</a><br>					
+• <a href="#----adicionando-um-client-scopes--">Adicionando um Client scopes</a><br>				
+• <a href="#----adicionando-um-client-scopes--">Adicionando um Client resource_access</a><br>	
 • <a href="#----vamos-testar-o-usuário---criado--">Vamos testar o usuario criado</a><br>	
 </p>
 
