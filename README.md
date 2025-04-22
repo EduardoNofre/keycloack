@@ -353,13 +353,13 @@ Criando um realm
 
  8 - Observção **resource_access**.
 
-    8.1 antes da alteração.
+    8.1 Antes da alteração o token.
 
  <p align="center">
     <img src="https://github.com/EduardoNofre/DockerCompose_keycloack_postgrees/blob/master/resource_padr%C3%A3o.png" alt="Sublime's custom image"/>  
   </p>
 
-    8.2 Após a alteração.
+    8.2 Após a alteração o token.
 
  <p align="center">
     <img src="https://github.com/EduardoNofre/DockerCompose_keycloack_postgrees/blob/master/resourceApos.png" alt="Sublime's custom image"/>  
