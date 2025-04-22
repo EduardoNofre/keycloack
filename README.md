@@ -365,7 +365,7 @@ Criando um realm
     <img src="https://github.com/EduardoNofre/DockerCompose_keycloack_postgrees/blob/master/resourceApos.png" alt="Sublime's custom image"/>  
   </p>
 
-
+  PODEMOS NOTA QUE NO RESOURCE FOI ADICIONADO  O **CLIENT** CLIENT_SISTEMA E A SUA ROLE **app-backend-admin**.
 
 
   <h1 align="center">
