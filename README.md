@@ -359,7 +359,13 @@ Criando um realm
     <img src="https://github.com/EduardoNofre/DockerCompose_keycloack_postgrees/blob/master/resource_padr%C3%A3o.png" alt="Sublime's custom image"/>  
   </p>
 
-    8.2 Apos da alteração.
+    8.2 Após a alteração.
+
+ <p align="center">
+    <img src="https://github.com/EduardoNofre/DockerCompose_keycloack_postgrees/blob/master/resourceApos.png" alt="Sublime's custom image"/>  
+  </p>
+
+
 
 
   <h1 align="center">
