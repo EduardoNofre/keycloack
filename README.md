@@ -351,7 +351,11 @@ Criando um realm
     <img src="https://github.com/EduardoNofre/DockerCompose_keycloack_postgrees/blob/master/resource.png" alt="Sublime's custom image"/>  
   </p>
 
- 8 - Observção 
+ 8 - Observção **resource_access** antes da alteração.
+
+ <p align="center">
+    <img src="https://github.com/EduardoNofre/DockerCompose_keycloack_postgrees/blob/master/resource.png" alt="Sublime's custom image"/>  
+  </p>
 
 
 
