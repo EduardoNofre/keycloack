@@ -316,7 +316,7 @@ Criando um realm
     Adicionando um Client scopes
   </h1>
 
- 1 - Vá em **Client scopes**.
+ 1 - Vá em **Client**.
  
  2 - Clique na opção  **Roles**.
  
@@ -327,6 +327,33 @@ Criando um realm
  5 - Nesta ABA estará todas as roles que você criou no nosso caso só **'Administrador_role'** seleciona a sua role e clique no botão **Assign**.
 
  6 - Volte para a **opção Client scopes** e  Clique na **opção Roles**  selecione a **ABA Mappers** na opçao **client roles** no **campo Client ID** selecione o client que você criou **client_sistema**.
+
+
+   <h1 align="center">
+    Adicionando um Client resource_access
+  </h1>
+
+ 1 - Vá em **Client scopes**.
+ 
+ 2 - selecione na client que acabou de criar **client_sistema**.
+ 
+ 3 - Clique na ABA **roles**.
+
+ 4 - Crie roles com o nome **app-backend-admin**.
+
+ 5 - Vá em **Users > eduardo1 > Role Mappings**
+
+ 6 - Faça a **associação**  da role que acabou de ser criada **app-backend-admin** ao usuario **eduardo1** 
+
+ 7 - A role será exibida da seguinte forma exemplo: **nome do client nome da sua role** como mostra o exemplo abaixo.
+        
+  <p align="center">
+    <img src="" alt="Sublime's custom image"/>  
+  </p>
+
+
+
+
 
   <h1 align="center">
     Vamos testar o usuário   criado.
