@@ -345,7 +345,7 @@ Criando um realm
 
  6 - Faça a **associação**  da role que acabou de ser criada **app-backend-admin** ao usuario **eduardo1** 
 
- 7 - A role será exibida da seguinte forma exemplo: **nome do client nome da sua role** como mostra o exemplo abaixo.
+ 7 - A role será exibida da seguinte forma exemplo: **nome do client** e **nome da role** como mostra o exemplo abaixo.
         
   <p align="center">
     <img src="https://github.com/EduardoNofre/DockerCompose_keycloack_postgrees/blob/master/resource.png" alt="Sublime's custom image"/>  
